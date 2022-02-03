@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data TICs</title>
+    <link>https://martinolmos.github.io/datos_tic/</link>
+    <description>Recent content on Data TICs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinolmos.github.io/datos_tic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>30 Day Map Challenge Día 3 y 4</title>
+      <link>https://martinolmos.github.io/datos_tic/2021/11/09/30-day-map-challenge-d%C3%ADa-3-y-4/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinolmos.github.io/datos_tic/2021/11/09/30-day-map-challenge-d%C3%ADa-3-y-4/</guid>
+      
+        <description>Día 3 - Polígonos Las celdas de las redes móviles se pueden modelar mediante Diagramas de Voronoi.</description>
+      
+    </item>
+    
+    <item>
+      <title>30 Days Map Challenge Día 1 y 2</title>
+      <link>https://martinolmos.github.io/datos_tic/2021/11/06/30-days-map-challenge-d%C3%ADa-1-y-2/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinolmos.github.io/datos_tic/2021/11/06/30-days-map-challenge-d%C3%ADa-1-y-2/</guid>
+      
+        <description>El #30daymapchallenge es un desafío de mapeo/cartografía/visualización de datos organizado por la comunidad de gente que se dedica a estos temas.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://martinolmos.github.io/datos_tic/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinolmos.github.io/datos_tic/archives/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Contacto</title>
+      <link>https://martinolmos.github.io/datos_tic/contact/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinolmos.github.io/datos_tic/contact/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sobre mí y este blog</title>
+      <link>https://martinolmos.github.io/datos_tic/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinolmos.github.io/datos_tic/about/</guid>
+      
+        <description>Soy licenciado en Ciencias Políticas (UCA), Magister en Políticas Públicas (George Washington University) y Especialista en Ciencia de Datos (ITBA).</description>
+      
+    </item>
+    
+  </channel>
+</rss>
