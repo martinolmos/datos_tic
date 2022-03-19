@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data TICs</title>
+    <title>Datos y TICs</title>
     <link>https://martinolmos.github.io/datos_tic/</link>
-    <description>Recent content on Data TICs</description>
+    <description>Recent content on Datos y TICs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Sat, 19 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://martinolmos.github.io/datos_tic/index.xml" rel="self" type="application/rss+xml" />
@@ -86,10 +86,10 @@
     
     <item>
       <title>Sobre mí y este blog</title>
-      <link>https://martinolmos.github.io/datos_tic/about/</link>
+      <link>https://martinolmos.github.io/datos_tic/sobremi/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://martinolmos.github.io/datos_tic/about/</guid>
+      <guid>https://martinolmos.github.io/datos_tic/sobremi/</guid>
       
         <description>Soy licenciado en Ciencias Políticas (UCA), Magister en Políticas Públicas (George Washington University) y Especialista en Ciencia de Datos (ITBA).</description>
       

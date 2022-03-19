@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data TICs</title>
+    <title>Data &amp; ICTs</title>
     <link>https://martinolmos.github.io/datos_tic/en/</link>
-    <description>Recent content on Data TICs</description>
+    <description>Recent content on Data &amp; ICTs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinolmos.github.io/datos_tic/en/index.xml" rel="self" type="application/rss+xml" />
@@ -159,7 +159,7 @@
       
       <guid>https://martinolmos.github.io/datos_tic/en/about/</guid>
       
-        <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.</description>
+        <description>I have a degree in Political Science (Universidad Católica Argentina - UCA), a Masters degree in Public Policy (George Washington University - GWU) and a Specialization in Data Science (Instituto Tecnológico de Buenos Aires - ITBA).</description>
       
     </item>
     
