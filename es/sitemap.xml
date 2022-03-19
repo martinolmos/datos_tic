@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://martinolmos.github.io/datos_tic/</loc>
-    <lastmod>2022-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,11 +15,8 @@
                 href="https://martinolmos.github.io/datos_tic/"
                 />
   </url><url>
-    <loc>https://martinolmos.github.io/datos_tic/2022/02/06/cables-submarinos-de-internet/</loc>
-    <lastmod>2022-02-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://martinolmos.github.io/datos_tic/post/</loc>
-    <lastmod>2022-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -30,6 +27,15 @@
                 hreflang="es"
                 href="https://martinolmos.github.io/datos_tic/post/"
                 />
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/2022/03/19/usando-im%C3%A1genes-satelitales/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/2022/02/07/evoluci%C3%B3n-de-los-precios/</loc>
+    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/2022/02/06/cables-submarinos-de-internet/</loc>
+    <lastmod>2022-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinolmos.github.io/datos_tic/2021/11/09/30-day-map-challenge-d%C3%ADa-3-y-4/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
