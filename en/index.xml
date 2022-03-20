@@ -6,60 +6,59 @@
     <description>Recent content on Data &amp; ICTs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://martinolmos.github.io/datos_tic/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://martinolmos.github.io/datos_tic/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Series Part 2</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2021/08/15/series-part-2/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      <title>Using Satellite Images</title>
+      <link>https://martinolmos.github.io/datos_tic/en/2022/03/19/using-satellite-images/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://martinolmos.github.io/datos_tic/en/2021/08/15/series-part-2/</guid>
+      <guid>https://martinolmos.github.io/datos_tic/en/2022/03/19/using-satellite-images/</guid>
       
-        <description>&lt;p&gt;In this second part of the series we&amp;rsquo;ll show you where to find the full series&lt;/p&gt;</description>
+        <description>Brief concept intro1 Satellite remote sensing or satellite remote sensing is the activity of collecting data through the use of sensors, in this case satellites, from a place to which there is no physical access, that is, remotely.</description>
       
     </item>
     
     <item>
-      <title>Series Part 1</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2021/08/14/series-part-1/</link>
-      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      <title>ICT Prices Evolution</title>
+      <link>https://martinolmos.github.io/datos_tic/en/2022/02/07/ict-prices-evolution/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://martinolmos.github.io/datos_tic/en/2021/08/14/series-part-1/</guid>
+      <guid>https://martinolmos.github.io/datos_tic/en/2022/02/07/ict-prices-evolution/</guid>
       
-        <description>&lt;p&gt;In this first part of the series we&amp;rsquo;ll show you how to create a series&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Redirect</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2021/06/20/redirect/</link>
-      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinolmos.github.io/datos_tic/en/2021/06/20/redirect/</guid>
-      
-        <description>Forwarding to gohugo using redirectUrl
-      </description>
+        <description>Let’s see what was the evolution of prices of ICT services in Argentina in recent years.</description>
       
     </item>
     
     <item>
-      <title>The Figure Shortcode</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2021/03/13/the-figure-shortcode/</link>
-      <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
+      <title>Internet Submarine Cables</title>
+      <link>https://martinolmos.github.io/datos_tic/en/2022/02/06/internet-submarine-cables/</link>
+      <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://martinolmos.github.io/datos_tic/en/2021/03/13/the-figure-shortcode/</guid>
+      <guid>https://martinolmos.github.io/datos_tic/en/2022/02/06/internet-submarine-cables/</guid>
       
-        <description>Hugo has figure shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images.</description>
+        <description>Some time ago Tyler Morgan-Wall made a visualization of all the submarine internet cables with Telegeography data.</description>
       
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2020/12/01/hello-r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <title>30 Day Map Challenge Day 3 and 4</title>
+      <link>https://martinolmos.github.io/datos_tic/en/2021/11/09/30-day-map-challenge-day-3-and-4/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://martinolmos.github.io/datos_tic/en/2020/12/01/hello-r-markdown/</guid>
+      <guid>https://martinolmos.github.io/datos_tic/en/2021/11/09/30-day-map-challenge-day-3-and-4/</guid>
       
-        <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.</description>
+        <description>Day 3 - Polygons The cells of mobile networks can be modeled using Voronoi diagrams.</description>
+      
+    </item>
+    
+    <item>
+      <title>30 Days Map Challenge Day 1 and 2</title>
+      <link>https://martinolmos.github.io/datos_tic/en/2021/11/06/30-days-map-challenge-day-1-and-2/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinolmos.github.io/datos_tic/en/2021/11/06/30-days-map-challenge-day-1-and-2/</guid>
+      
+        <description>The #30daymapchallenge is a mapping/cartography/data visualization challenge powered by the data science community.</description>
       
     </item>
     
@@ -75,40 +74,6 @@
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2019/03/11/markdown-syntax-guide/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinolmos.github.io/datos_tic/en/2019/03/11/markdown-syntax-guide/</guid>
-      
-        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2019/03/10/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinolmos.github.io/datos_tic/en/2019/03/10/rich-content/</guid>
-      
-        <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2019/03/09/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinolmos.github.io/datos_tic/en/2019/03/09/placeholder-text/</guid>
-      
-        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>https://martinolmos.github.io/datos_tic/en/contact/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
@@ -116,39 +81,6 @@
       <guid>https://martinolmos.github.io/datos_tic/en/contact/</guid>
       
         <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2019/03/08/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinolmos.github.io/datos_tic/en/2019/03/08/math-typesetting/</guid>
-      
-        <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2019/03/05/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinolmos.github.io/datos_tic/en/2019/03/05/emoji-support/</guid>
-      
-        <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Guide to Thumbnails in Hugo</title>
-      <link>https://martinolmos.github.io/datos_tic/en/2019/03/04/guide-to-thumbnails-in-hugo/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://martinolmos.github.io/datos_tic/en/2019/03/04/guide-to-thumbnails-in-hugo/</guid>
-      
-        <description>Thumbnails can be enabled easily by setting the thumbnail parameter in the frontmatter to an image such as &amp;quot;images/landscape.</description>
       
     </item>
     
