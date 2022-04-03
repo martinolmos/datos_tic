@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  class="html"
+><head>
+  <title>
+    
+      Martin Olmos
+        |
+        ICT Prices Evolution
+
+
+      
+
+
+    
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Martin Olmos" />
+  <meta
+    name="description"
+    content="
+      A blog on data and ICTs
+
+
+    "
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/datos_tic/scss/main.min.5551757e3608c8c17519a404d0c78646f8b4ce68b04e5acc290a21597ce09467.css"
+      integrity="sha256-VVF1fjYIyMF1GaQE0MeGRvi0zmiwTlrMKQohWXzglGc="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/datos_tic/css/codefolding.min.47eb75f4d59a85ad446ff53d90b792049267d7134465ca63a49a10b66d710e32.css"
+      integrity="sha256-R&#43;t19NWaha1Eb/U9kLeSBJJn1xNEZcpjpJoQtm1xDjI="
+      crossorigin="anonymous"
+      media="screen"
+    />
+
+  
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/fontawesome.min.69685904d5c2a0c6258d03c207b778c10466edf6cea928cc0164c376b0ad0930.css"
+    integrity="sha256-aWhZBNXCoMYljQPCB7d4wQRm7fbOqSjMAWTDdrCtCTA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/solid.min.6d585e78d28cce1200d39fb133c92ed83df01738da721d0f48fb6eac62d24e04.css"
+    integrity="sha256-bVheeNKMzhIA05&#43;xM8ku2D3wFzjach0PSPturGLSTgQ="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/brands.min.6b00d96498d59caa0dbcf9b49d30d821915291f2ceb0e19248523c8607ff43fa.css"
+    integrity="sha256-awDZZJjVnKoNvPm0nTDYIZFSkfLOsOGSSFI8hgf/Q/o="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/datos_tic/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/datos_tic/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/datos_tic/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/datos_tic/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/" />
+
+  
+  
+  <script 
+    src="https://code.jquery.com/jquery-2.2.4.min.js" 
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" 
+    crossorigin="anonymous">
+  </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/datos_tic/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js"
+      integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo="
+      crossorigin="anonymous"
+    ></script>
+
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://martinolmos.github.io/datos_tic/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="ICT Prices Evolution"/>
+<meta name="twitter:description" content="Let’s see what was the evolution of prices of ICT services in Argentina in recent years."/>
+
+
+
+  
+  <meta property="og:title" content="ICT Prices Evolution" />
+<meta property="og:description" content="Let’s see what was the evolution of prices of ICT services in Argentina in recent years." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/" /><meta property="og:image" content="https://martinolmos.github.io/datos_tic/images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-02-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-02-07T00:00:00+00:00" /><meta property="og:site_name" content="Data &amp; ICTs" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "ICT Prices Evolution",
+        "headline": "ICT Prices Evolution",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Let’s see what was the evolution of prices of ICT services in Argentina in recent years.
+
+
+      
+
+
+    ",
+        "inLanguage": "es",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/martinolmos.github.io\/datos_tic\/en\/post\/2022-02-07-price-evolution\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "copyrightYear" : "2022",
+        "dateCreated": "2022-02-07T00:00:00.00Z",
+        "datePublished": "2022-02-07T00:00:00.00Z",
+        "dateModified": "2022-02-07T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Martin Olmos",
+            "url": "https://martinolmos.github.io/datos_tic/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/martinolmos.github.io\/datos_tic\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://martinolmos.github.io/datos_tic/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/martinolmos.github.io\/datos_tic\/en\/post\/2022-02-07-price-evolution\/",
+        "wordCount" : "886",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
+</head>
+<body
+    
+      class="body theme--light"
+
+    
+  >
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/datos_tic/images/profile_pic.jpeg"
+        alt="profile picture"
+      />
+      <h1 class="sidebar__introduction-title">
+        <a href="/datos_tic/en">Data &amp; ICTs</a>
+      </h1>
+      <div class="sidebar__introduction-description">
+        <p>A blog on data and ICTs</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.linkedin.com/in/martinolmos/" rel="me" aria-label="Linkedin" title="Linkedin">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://github.com/martinolmos" rel="me" aria-label="GitHub" title="GitHub">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.instagram.com/eltinco/" rel="me" aria-label="instagram" title="instagram">
+            <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="mailto:martin.olmos.ar@gmail.com" rel="me" aria-label="e-mail" title="e-mail">
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2022
+
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/datos_tic/en/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+
+    
+  </ul>
+
+
+  <script src="/datos_tic/js/collapse.js"></script>
+  <script src="/datos_tic/js/dropdown.js"></script>
+  <script src="/datos_tic/js/transition.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/"
+            
+            title=""
+            >Home</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/post/"
+            
+            title=""
+            >Posts</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/about/"
+            
+            title=""
+            >About</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/contact/"
+            
+            title=""
+            >Contact</a
+          >
+        </li>
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+
+    "
+  >
+    
+    <div class="post__content">
+      <h1>ICT Prices Evolution</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                7/2/2022
+
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">5-minute read</span>
+          </li>
+        </ul>
+
+      
+<script src="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/index.en_files/header-attrs/header-attrs.js"></script>
+<script src="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/index.en_files/htmlwidgets/htmlwidgets.js"></script>
+<script src="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/index.en_files/plotly-binding/plotly.js"></script>
+<script src="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/index.en_files/typedarray/typedarray.min.js"></script>
+<script src="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/index.en_files/jquery/jquery.min.js"></script>
+<link href="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/index.en_files/crosstalk/css/crosstalk.min.css" rel="stylesheet" />
+<script src="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/index.en_files/crosstalk/js/crosstalk.min.js"></script>
+<link href="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/index.en_files/plotly-htmlwidgets-css/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/index.en_files/plotly-main/plotly-latest.min.js"></script>
+
+
+<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.8.0/dist/js/components.js'></script>
+<p><link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/gh/datosgobar/series-tiempo-ar-explorer@ts_components_2.8.0/dist/css/components.css'/></p>
+<p>Let’s see what was the evolution of prices of ICT services in Argentina in recent years.</p>
+<p>If we take the time-series of the communications chapter of the INDEC Consumer Price Index (IPC-COM) we see that since the beginning of the series (Dec-2016=100) prices of communication services were above the general index until 2020, where the IPC-COM flattens and then goes below the general index.</p>
+<div id="precios1">
+
+</div>
+<p>Let’s analyze in particular the years 2020 and 2021. First, 2020: if we look at the cumulative annual variation, the IPC-COM rises above the general IPC with the increase in March, which was partially reversed in April (the increase in prepaid mobile and fixed telephony, but not postpaid and mixed mobile) and then the IPC plateaus first due to the price agreement until July 31 and then due to the freeze imposed by DNU 690/2020 until December 31.</p>
+<div id="precios2">
+
+</div>
+<p>Now let’s look at the year 2021:</p>
+<div id="precios3">
+
+</div>
+<script>
+    window.onload = function() {
+        TSComponents.Graphic.render('precios1', {
+            graphicUrl: "https://apis.datos.gob.ar/series/api/series/?ids=148.3_INIVELNAL_DICI_M_26,146.3_ICOMUNINAL_DICI_M_27&limit=5000&representation_mode=value",
+            title: "IPC vs. IPC-COM. Base diciembre 2016.",
+            source: "Fuente: Instituto Nacional de Estadística y Censos (INDEC)"
+        })
+        TSComponents.Graphic.render('precios2', {
+            graphicUrl: "https://apis.datos.gob.ar/series/api/series/?ids=148.3_INIVELNAL_DICI_M_26,146.3_ICOMUNINAL_DICI_M_27&limit=5000&representation_mode=change_since_beginning_of_year&start_date=2020-01-01&end_date=2020-12-01",
+            title: "Índice de Precios al Consumidor Nacional (IPC). Base diciembre 2016.",
+            source: "Fuente: Instituto Nacional de Estadística y Censos (INDEC)"
+        })
+        TSComponents.Graphic.render('precios3', {
+            graphicUrl: "https://apis.datos.gob.ar/series/api/series/?ids=148.3_INIVELNAL_DICI_M_26,146.3_ICOMUNINAL_DICI_M_27&limit=5000&representation_mode=change_since_beginning_of_year&start_date=2021-01-01&end_date=2021-12-01",
+            title: "Índice de Precios al Consumidor Nacional (IPC). Base diciembre 2016.",
+            source: "Fuente: Instituto Nacional de Estadística y Censos (INDEC)"
+        })
+    }
+</script>
+<p>As we can see, both 2020 and 2021 were years where price increases in ICTs were well below the increases in the general index.</p>
+<p><em>Note: according to <a href="https://www.indec.gob.ar/ftp/cuadros/menusuperior/clasificadores/coicop_argentina_2019.pdf">COICOP Argentina</a>, the Communications Chapter of the IPC does not include only ICT services but also the price of equipment and does not include prices of pay television services, which are reflected in the Chapter of Recreation and Culture.</em></p>
+<p>Now let’s see how we rank against other countries in the region in terms of affordability. <a href="https://www.itu.int/es/Pages/default.aspx">The International Telecommunication Union (ITU)</a> compiles <a href="https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx">standardized price statistics</a> of price baskets for fixed and mobile services. Some examples:</p>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"data":[{"x":[2018,2019,2020],"y":[1.17,1.31,1.06],"text":["year: 2018<br />value: 1.17<br />iso_code: ARG","year: 2019<br />value: 1.31<br />iso_code: ARG","year: 2020<br />value: 1.06<br />iso_code: ARG"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(248,118,109,1)","dash":"solid"},"hoveron":"points","name":"ARG","legendgroup":"ARG","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[2.58,2.58,2.49],"text":["year: 2018<br />value: 2.58<br />iso_code: BOL","year: 2019<br />value: 2.58<br />iso_code: BOL","year: 2020<br />value: 2.49<br />iso_code: BOL"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(219,142,0,1)","dash":"solid"},"hoveron":"points","name":"BOL","legendgroup":"BOL","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[4.67,1.8,1.43],"text":["year: 2018<br />value: 4.67<br />iso_code: BRA","year: 2019<br />value: 1.80<br />iso_code: BRA","year: 2020<br />value: 1.43<br />iso_code: BRA"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(174,162,0,1)","dash":"solid"},"hoveron":"points","name":"BRA","legendgroup":"BRA","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[0.89,0.89,0.72],"text":["year: 2018<br />value: 0.89<br />iso_code: CHL","year: 2019<br />value: 0.89<br />iso_code: CHL","year: 2020<br />value: 0.72<br />iso_code: CHL"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(100,178,0,1)","dash":"solid"},"hoveron":"points","name":"CHL","legendgroup":"CHL","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[2.74,2.74,2.35],"text":["year: 2018<br />value: 2.74<br />iso_code: COL","year: 2019<br />value: 2.74<br />iso_code: COL","year: 2020<br />value: 2.35<br />iso_code: COL"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,189,92,1)","dash":"solid"},"hoveron":"points","name":"COL","legendgroup":"COL","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[0.29,0.33,0.31],"text":["year: 2018<br />value: 0.29<br />iso_code: ESP","year: 2019<br />value: 0.33<br />iso_code: ESP","year: 2020<br />value: 0.31<br />iso_code: ESP"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,193,167,1)","dash":"solid"},"hoveron":"points","name":"ESP","legendgroup":"ESP","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[1.02,1.02,1.3],"text":["year: 2018<br />value: 1.02<br />iso_code: MEX","year: 2019<br />value: 1.02<br />iso_code: MEX","year: 2020<br />value: 1.30<br />iso_code: MEX"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,186,222,1)","dash":"solid"},"hoveron":"points","name":"MEX","legendgroup":"MEX","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[1.57,1.68,1.51],"text":["year: 2018<br />value: 1.57<br />iso_code: PER","year: 2019<br />value: 1.68<br />iso_code: PER","year: 2020<br />value: 1.51<br />iso_code: PER"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,166,255,1)","dash":"solid"},"hoveron":"points","name":"PER","legendgroup":"PER","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[5.16,4.42,2.95],"text":["year: 2018<br />value: 5.16<br />iso_code: PRY","year: 2019<br />value: 4.42<br />iso_code: PRY","year: 2020<br />value: 2.95<br />iso_code: PRY"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(179,133,255,1)","dash":"solid"},"hoveron":"points","name":"PRY","legendgroup":"PRY","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[1.48,1.61,1.03],"text":["year: 2018<br />value: 1.48<br />iso_code: URY","year: 2019<br />value: 1.61<br />iso_code: URY","year: 2020<br />value: 1.03<br />iso_code: URY"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(239,103,235,1)","dash":"solid"},"hoveron":"points","name":"URY","legendgroup":"URY","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[0.42,0.42,0.4],"text":["year: 2018<br />value: 0.42<br />iso_code: USA","year: 2019<br />value: 0.42<br />iso_code: USA","year: 2020<br />value: 0.40<br />iso_code: USA"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(255,99,182,1)","dash":"solid"},"hoveron":"points","name":"USA","legendgroup":"USA","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":40.1826484018265,"l":31.4155251141553},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Mobile broadband data only 1.5 GB","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2017.9,2020.1],"tickmode":"array","ticktext":[2018,2019,2020],"tickvals":[2018,2019,2020],"categoryorder":"array","categoryarray":[2018,2019,2020],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.0465,5.4035],"tickmode":"array","ticktext":["1","2","3","4","5"],"tickvals":[1,2,3,4,5],"categoryorder":"array","categoryarray":["1","2","3","4","5"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"Price (% GNIpc)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":"transparent","line":{"color":"rgba(51,51,51,1)","width":0.66417600664176,"linetype":"solid"},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"title":{"text":"iso_code","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"7e097512087d":{"x":{},"y":{},"colour":{},"type":"scatter"}},"cur_data":"7e097512087d","visdat":{"7e097512087d":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-2" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"data":[{"x":[2018,2019,2020],"y":[4.68,5.56,4.88],"text":["year: 2018<br />value: 4.68<br />iso_code: ARG","year: 2019<br />value: 5.56<br />iso_code: ARG","year: 2020<br />value: 4.88<br />iso_code: ARG"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(248,118,109,1)","dash":"solid"},"hoveron":"points","name":"ARG","legendgroup":"ARG","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[5.57,5.57,5.38],"text":["year: 2018<br />value: 5.57<br />iso_code: BOL","year: 2019<br />value: 5.57<br />iso_code: BOL","year: 2020<br />value: 5.38<br />iso_code: BOL"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(219,142,0,1)","dash":"solid"},"hoveron":"points","name":"BOL","legendgroup":"BOL","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[1.8,1.8,1.43],"text":["year: 2018<br />value: 1.80<br />iso_code: BRA","year: 2019<br />value: 1.80<br />iso_code: BRA","year: 2020<br />value: 1.43<br />iso_code: BRA"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(174,162,0,1)","dash":"solid"},"hoveron":"points","name":"BRA","legendgroup":"BRA","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[1.07,1.07,0.84],"text":["year: 2018<br />value: 1.07<br />iso_code: CHL","year: 2019<br />value: 1.07<br />iso_code: CHL","year: 2020<br />value: 0.84<br />iso_code: CHL"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(100,178,0,1)","dash":"solid"},"hoveron":"points","name":"CHL","legendgroup":"CHL","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[2.03,2.03,1.76],"text":["year: 2018<br />value: 2.03<br />iso_code: COL","year: 2019<br />value: 2.03<br />iso_code: COL","year: 2020<br />value: 1.76<br />iso_code: COL"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,189,92,1)","dash":"solid"},"hoveron":"points","name":"COL","legendgroup":"COL","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[0.58,0.67,0.54],"text":["year: 2018<br />value: 0.58<br />iso_code: ESP","year: 2019<br />value: 0.67<br />iso_code: ESP","year: 2020<br />value: 0.54<br />iso_code: ESP"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,193,167,1)","dash":"solid"},"hoveron":"points","name":"ESP","legendgroup":"ESP","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[1.02,1.02,1.3],"text":["year: 2018<br />value: 1.02<br />iso_code: MEX","year: 2019<br />value: 1.02<br />iso_code: MEX","year: 2020<br />value: 1.30<br />iso_code: MEX"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,186,222,1)","dash":"solid"},"hoveron":"points","name":"MEX","legendgroup":"MEX","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[1.57,1.68,1.51],"text":["year: 2018<br />value: 1.57<br />iso_code: PER","year: 2019<br />value: 1.68<br />iso_code: PER","year: 2020<br />value: 1.51<br />iso_code: PER"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,166,255,1)","dash":"solid"},"hoveron":"points","name":"PER","legendgroup":"PER","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[4.53,2.87,3.13],"text":["year: 2018<br />value: 4.53<br />iso_code: PRY","year: 2019<br />value: 2.87<br />iso_code: PRY","year: 2020<br />value: 3.13<br />iso_code: PRY"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(179,133,255,1)","dash":"solid"},"hoveron":"points","name":"PRY","legendgroup":"PRY","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[0.97,1.06,1.03],"text":["year: 2018<br />value: 0.97<br />iso_code: URY","year: 2019<br />value: 1.06<br />iso_code: URY","year: 2020<br />value: 1.03<br />iso_code: URY"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(239,103,235,1)","dash":"solid"},"hoveron":"points","name":"URY","legendgroup":"URY","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[0.62,0.62,0.59],"text":["year: 2018<br />value: 0.62<br />iso_code: USA","year: 2019<br />value: 0.62<br />iso_code: USA","year: 2020<br />value: 0.59<br />iso_code: USA"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(255,99,182,1)","dash":"solid"},"hoveron":"points","name":"USA","legendgroup":"USA","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":40.1826484018265,"l":31.4155251141553},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Mobile Data and Voice Low Usage","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2017.9,2020.1],"tickmode":"array","ticktext":[2018,2019,2020],"tickvals":[2018,2019,2020],"categoryorder":"array","categoryarray":[2018,2019,2020],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.2885,5.8215],"tickmode":"array","ticktext":["1","2","3","4","5"],"tickvals":[1,2,3,4,5],"categoryorder":"array","categoryarray":["1","2","3","4","5"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"Price (% GNIpc)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":"transparent","line":{"color":"rgba(51,51,51,1)","width":0.66417600664176,"linetype":"solid"},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"title":{"text":"iso_code","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"7e09156e02fb":{"x":{},"y":{},"colour":{},"type":"scatter"}},"cur_data":"7e09156e02fb","visdat":{"7e09156e02fb":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-3" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3">{"x":{"data":[{"x":[2018,2019,2020],"y":[4.67,5.52,6.96],"text":["year: 2018<br />value: 4.67<br />iso_code: ARG","year: 2019<br />value: 5.52<br />iso_code: ARG","year: 2020<br />value: 6.96<br />iso_code: ARG"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(248,118,109,1)","dash":"solid"},"hoveron":"points","name":"ARG","legendgroup":"ARG","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[7.58,7.58,7.68],"text":["year: 2018<br />value: 7.58<br />iso_code: BOL","year: 2019<br />value: 7.58<br />iso_code: BOL","year: 2020<br />value: 7.68<br />iso_code: BOL"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(219,142,0,1)","dash":"solid"},"hoveron":"points","name":"BOL","legendgroup":"BOL","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[1.43,1.43,2.51],"text":["year: 2018<br />value: 1.43<br />iso_code: BRA","year: 2019<br />value: 1.43<br />iso_code: BRA","year: 2020<br />value: 2.51<br />iso_code: BRA"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(174,162,0,1)","dash":"solid"},"hoveron":"points","name":"BRA","legendgroup":"BRA","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[2.68,2.68,2.51],"text":["year: 2018<br />value: 2.68<br />iso_code: CHL","year: 2019<br />value: 2.68<br />iso_code: CHL","year: 2020<br />value: 2.51<br />iso_code: CHL"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(100,178,0,1)","dash":"solid"},"hoveron":"points","name":"CHL","legendgroup":"CHL","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[3.93,4.19,4.16],"text":["year: 2018<br />value: 3.93<br />iso_code: COL","year: 2019<br />value: 4.19<br />iso_code: COL","year: 2020<br />value: 4.16<br />iso_code: COL"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,189,92,1)","dash":"solid"},"hoveron":"points","name":"COL","legendgroup":"COL","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[2.17,1.92,1.72],"text":["year: 2018<br />value: 2.17<br />iso_code: ESP","year: 2019<br />value: 1.92<br />iso_code: ESP","year: 2020<br />value: 1.72<br />iso_code: ESP"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,193,167,1)","dash":"solid"},"hoveron":"points","name":"ESP","legendgroup":"ESP","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[2.37,2.37,2.27],"text":["year: 2018<br />value: 2.37<br />iso_code: MEX","year: 2019<br />value: 2.37<br />iso_code: MEX","year: 2020<br />value: 2.27<br />iso_code: MEX"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,186,222,1)","dash":"solid"},"hoveron":"points","name":"MEX","legendgroup":"MEX","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[3.35,3.47,3.56],"text":["year: 2018<br />value: 3.35<br />iso_code: PER","year: 2019<br />value: 3.47<br />iso_code: PER","year: 2020<br />value: 3.56<br />iso_code: PER"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(0,166,255,1)","dash":"solid"},"hoveron":"points","name":"PER","legendgroup":"PER","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[4.94,4.98,4.98],"text":["year: 2018<br />value: 4.94<br />iso_code: PRY","year: 2019<br />value: 4.98<br />iso_code: PRY","year: 2020<br />value: 4.98<br />iso_code: PRY"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(179,133,255,1)","dash":"solid"},"hoveron":"points","name":"PRY","legendgroup":"PRY","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[2.38,2.65,2.65],"text":["year: 2018<br />value: 2.38<br />iso_code: URY","year: 2019<br />value: 2.65<br />iso_code: URY","year: 2020<br />value: 2.65<br />iso_code: URY"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(239,103,235,1)","dash":"solid"},"hoveron":"points","name":"URY","legendgroup":"URY","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2018,2019,2020],"y":[0.83,0.83,0.99],"text":["year: 2018<br />value: 0.83<br />iso_code: USA","year: 2019<br />value: 0.83<br />iso_code: USA","year: 2020<br />value: 0.99<br />iso_code: USA"],"type":"scatter","mode":"lines","line":{"width":1.88976377952756,"color":"rgba(255,99,182,1)","dash":"solid"},"hoveron":"points","name":"USA","legendgroup":"USA","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":40.1826484018265,"l":31.4155251141553},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Fixed broadband 5GB","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[2017.9,2020.1],"tickmode":"array","ticktext":[2018,2019,2020],"tickvals":[2018,2019,2020],"categoryorder":"array","categoryarray":[2018,2019,2020],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"y","title":{"text":"Year","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4875,8.0225],"tickmode":"array","ticktext":["2","4","6","8"],"tickvals":[2,4,6,8],"categoryorder":"array","categoryarray":["2","4","6","8"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.65296803652968,"tickwidth":0.66417600664176,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176,"zeroline":false,"anchor":"x","title":{"text":"Price (% GNIpc)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":"transparent","line":{"color":"rgba(51,51,51,1)","width":0.66417600664176,"linetype":"solid"},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":true,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.88976377952756,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895},"title":{"text":"iso_code","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"7e092f7b6a21":{"x":{},"y":{},"colour":{},"type":"scatter"}},"cur_data":"7e092f7b6a21","visdat":{"7e092f7b6a21":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>In these time-series, Argentina only seems to be doing well in mobile broadband (only data).</p>
+<p><em>Note: these time-series only includes 2018, 2019 and 2020 because in 2017 there was a change in methodology. For more information see <a href="https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx">here</a>.</em></p>
+</div>
+    <div class="post__footer">
+      
+
+      
+      
+
+    </div>
+
+    
+  </div>
+
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2022
+
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/datos_tic/en/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+
+    
+  </ul>
+
+
+  <script src="/datos_tic/js/collapse.js"></script>
+  <script src="/datos_tic/js/dropdown.js"></script>
+  <script src="/datos_tic/js/transition.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  class="html"
+><head>
+  <title>
+    
+      Martin Olmos
+        |
+        30 Day Map Challenge Day 3 and 4
+
+
+      
+
+
+    
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Martin Olmos" />
+  <meta
+    name="description"
+    content="
+      A blog on data and ICTs
+
+
+    "
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/datos_tic/scss/main.min.5551757e3608c8c17519a404d0c78646f8b4ce68b04e5acc290a21597ce09467.css"
+      integrity="sha256-VVF1fjYIyMF1GaQE0MeGRvi0zmiwTlrMKQohWXzglGc="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/datos_tic/css/codefolding.min.47eb75f4d59a85ad446ff53d90b792049267d7134465ca63a49a10b66d710e32.css"
+      integrity="sha256-R&#43;t19NWaha1Eb/U9kLeSBJJn1xNEZcpjpJoQtm1xDjI="
+      crossorigin="anonymous"
+      media="screen"
+    />
+
+  
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/fontawesome.min.69685904d5c2a0c6258d03c207b778c10466edf6cea928cc0164c376b0ad0930.css"
+    integrity="sha256-aWhZBNXCoMYljQPCB7d4wQRm7fbOqSjMAWTDdrCtCTA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/solid.min.6d585e78d28cce1200d39fb133c92ed83df01738da721d0f48fb6eac62d24e04.css"
+    integrity="sha256-bVheeNKMzhIA05&#43;xM8ku2D3wFzjach0PSPturGLSTgQ="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/brands.min.6b00d96498d59caa0dbcf9b49d30d821915291f2ceb0e19248523c8607ff43fa.css"
+    integrity="sha256-awDZZJjVnKoNvPm0nTDYIZFSkfLOsOGSSFI8hgf/Q/o="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/datos_tic/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/datos_tic/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/datos_tic/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/datos_tic/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://martinolmos.github.io/datos_tic/en/post/2021-11-09-30-day-map-challenge-day-3-and-4/" />
+
+  
+  
+  <script 
+    src="https://code.jquery.com/jquery-2.2.4.min.js" 
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" 
+    crossorigin="anonymous">
+  </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/datos_tic/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js"
+      integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo="
+      crossorigin="anonymous"
+    ></script>
+
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://martinolmos.github.io/datos_tic/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="30 Day Map Challenge Day 3 and 4"/>
+<meta name="twitter:description" content="Day 3 - Polygons The cells of mobile networks can be modeled using Voronoi diagrams."/>
+
+
+
+  
+  <meta property="og:title" content="30 Day Map Challenge Day 3 and 4" />
+<meta property="og:description" content="Day 3 - Polygons The cells of mobile networks can be modeled using Voronoi diagrams." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://martinolmos.github.io/datos_tic/en/post/2021-11-09-30-day-map-challenge-day-3-and-4/" /><meta property="og:image" content="https://martinolmos.github.io/datos_tic/images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-11-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-11-09T00:00:00+00:00" /><meta property="og:site_name" content="Data &amp; ICTs" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "30 Day Map Challenge Day 3 and 4",
+        "headline": "30 Day Map Challenge Day 3 and 4",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Day 3 - Polygons The cells of mobile networks can be modeled using Voronoi diagrams.
+
+
+      
+
+
+    ",
+        "inLanguage": "es",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/martinolmos.github.io\/datos_tic\/en\/post\/2021-11-09-30-day-map-challenge-day-3-and-4\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "copyrightYear" : "2021",
+        "dateCreated": "2021-11-09T00:00:00.00Z",
+        "datePublished": "2021-11-09T00:00:00.00Z",
+        "dateModified": "2021-11-09T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Martin Olmos",
+            "url": "https://martinolmos.github.io/datos_tic/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/martinolmos.github.io\/datos_tic\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://martinolmos.github.io/datos_tic/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/martinolmos.github.io\/datos_tic\/en\/post\/2021-11-09-30-day-map-challenge-day-3-and-4\/",
+        "wordCount" : "262",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "30daymapchallenge"
+
+    ]
+    }
+  </script>
+
+
+
+</head>
+<body
+    
+      class="body theme--light"
+
+    
+  >
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/datos_tic/images/profile_pic.jpeg"
+        alt="profile picture"
+      />
+      <h1 class="sidebar__introduction-title">
+        <a href="/datos_tic/en">Data &amp; ICTs</a>
+      </h1>
+      <div class="sidebar__introduction-description">
+        <p>A blog on data and ICTs</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.linkedin.com/in/martinolmos/" rel="me" aria-label="Linkedin" title="Linkedin">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://github.com/martinolmos" rel="me" aria-label="GitHub" title="GitHub">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.instagram.com/eltinco/" rel="me" aria-label="instagram" title="instagram">
+            <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="mailto:martin.olmos.ar@gmail.com" rel="me" aria-label="e-mail" title="e-mail">
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2022
+
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/datos_tic/en/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+
+    
+  </ul>
+
+
+  <script src="/datos_tic/js/collapse.js"></script>
+  <script src="/datos_tic/js/dropdown.js"></script>
+  <script src="/datos_tic/js/transition.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/"
+            
+            title=""
+            >Home</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/post/"
+            
+            title=""
+            >Posts</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/about/"
+            
+            title=""
+            >About</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/contact/"
+            
+            title=""
+            >Contact</a
+          >
+        </li>
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+
+    "
+  >
+    
+    <div class="post__content">
+      <h1>30 Day Map Challenge Day 3 and 4</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                9/11/2021
+
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">2-minute read</span>
+          </li>
+        </ul>
+
+      
+<script src="https://martinolmos.github.io/datos_tic/en/post/2021-11-09-30-day-map-challenge-day-3-and-4/index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="day-3---polygons" class="section level2">
+<h2>Day 3 - Polygons</h2>
+<p>The cells of mobile networks can be modeled using <a href="https://es.wikipedia.org/wiki/Pol%C3%ADgonos_de_Thiessen">Voronoi diagrams</a>. Typically this is done for mobility analysis with cell phone signaling data, as shown in <a href="https://www.researchgate.net/publication/260297863_Mobile_Phone_Location_Area_Based_Traffic_Flow_Estimation_in_Urban_Road_Traffic">this paper</a>.</p>
+<pre class="r"><code>library(tidyverse)
+library(sf)
+library(httr)
+library(ggvoronoi)
+library(ggmap)
+
+ign_geoserver_base_url &lt;- &quot;https://wms.ign.gob.ar/geoserver/ows&quot;
+
+ign_geoserver_query &lt;- list(service=&quot;wfs&quot;,
+                            version=&quot;1.1.0&quot;,
+                            request=&quot;GetFeature&quot;,
+                            typeNames=&quot;ign:departamento&quot;,
+                            cql_filter=&quot;in1=&#39;02007&#39;&quot;)
+
+ign_geoserver_url &lt;- modify_url(url = ign_geoserver_base_url,
+                                query = ign_geoserver_query)
+
+comuna1_sf &lt;- read_sf(ign_geoserver_url)
+
+comuna1_centroid &lt;- st_centroid(comuna1_sf)
+comuna1_bbox &lt;- st_bbox(comuna1_sf)
+
+idecom_geoserver_base_url &lt;- &quot;https://www.idecom.gob.ar/geoserver/ows&quot;
+
+idecom_geoserver_query &lt;- list(service=&quot;wfs&quot;,
+                               version=&quot;1.3.0&quot;,
+                               request=&quot;GetFeature&quot;,
+                               typeNames=&quot;publico:Antenas103-NO4G-5-3&quot;,
+                               cql_filter=paste0(&quot;BBOX(the_geom,&quot;, paste(comuna1_bbox[c(2,1,4,3)], collapse = &quot;,&quot;), &quot;)&quot;, &quot; AND Banda=&#39;7&#39;&quot;))
+
+idecom_geoserver_url &lt;- modify_url(url=idecom_geoserver_base_url, 
+                                   query = idecom_geoserver_query)
+
+radiobases_4g_comuna1 &lt;- read_sf(idecom_geoserver_url)
+
+radiobases_4g_comuna1 &lt;- radiobases_4g_comuna1 %&gt;% 
+  as_Spatial() %&gt;% 
+  sp::remove.duplicates() %&gt;% 
+  st_as_sf() %&gt;% 
+  na.omit()
+
+register_google(Sys.getenv(&quot;GOOGLE_MAPS_API_KEY&quot;))
+comuna1_map &lt;- get_googlemap(center = c(lon=-58.37869433449463, 
+                                        lat=-34.606838945727), 
+                             zoom = 15)
+
+ggmap(comuna1_map, 
+      base_layer = ggplot(data = na.omit(st_drop_geometry(radiobases_4g_comuna1)), 
+                          aes(Longitud, Latitud))) +
+  geom_path(stat = &quot;voronoi&quot;, alpha = 0.6, size = 0.4) +
+  geom_point(color = &quot;blue&quot;, size = 0.7) +
+  theme_minimal() +
+  theme(axis.text = element_blank(),
+        axis.title = element_blank())</code></pre>
+<center>
+<img src="radiobases_4g_comuna1_map.png" style="width:75.0%" />
+</center>
+</div>
+<div id="day-4---hexagons" class="section level2">
+<h2>Day 4 - Hexagons</h2>
+<p>Hexagons can also be used to visualize 4G base stations, using the color intensity to show density.</p>
+<pre class="r"><code>library(hexbin)
+
+ign_geoserver_base_url &lt;- &quot;https://wms.ign.gob.ar/geoserver/ows&quot;
+
+ign_geoserver_query &lt;- list(service=&quot;wfs&quot;,
+                            version=&quot;1.1.0&quot;,
+                            request=&quot;GetFeature&quot;,
+                            typeNames=&quot;ign:provincia&quot;,
+                            CQL_FILTER=&quot;in1=&#39;02&#39;&quot;)
+
+ign_geoserver_url &lt;- modify_url(url = ign_geoserver_base_url,
+                                query = ign_geoserver_query)
+caba &lt;- read_sf(ign_geoserver_url)
+
+caba_bb &lt;- st_bbox(caba)
+
+idecom_geoserver_base_url &lt;- &quot;https://www.idecom.gob.ar/geoserver/ows&quot;
+
+idecom_geoserver_query &lt;- list(service=&quot;wfs&quot;,
+                               version=&quot;1.3.0&quot;,
+                               request=&quot;GetFeature&quot;,
+                               typeNames=&quot;publico:Antenas103-NO4G-5-3&quot;,
+                               cql_filter=paste0(&quot;BBOX(the_geom,&quot;, paste(caba_bb[c(2,1,4,3)], collapse = &quot;,&quot;), &quot;)&quot;))
+
+idecom_geoserver_url &lt;- modify_url(url=idecom_geoserver_base_url, 
+                                   query = idecom_geoserver_query)
+
+radiobases_4g_caba &lt;- read_sf(idecom_geoserver_url)
+
+if(st_crs(caba)!=st_crs(radiobases_4g_caba)) {
+  radiobases_4g_caba &lt;- st_transform(radiobases_4g_caba, crs = st_crs(caba))
+}
+radiobases_4g_caba &lt;- st_join(radiobases_4g_caba, caba, left=FALSE)
+
+caba %&gt;% 
+  ggplot() +
+  geom_sf() +
+  geom_hex(data = radiobases_4g_caba, aes(Longitud, Latitud)) +
+  theme_bw() +
+  coord_sf(datum = NA) +
+  scale_fill_viridis_c(direction = -1, name = &quot;Radiobases 4G&quot;) +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank())</code></pre>
+<center>
+<img src="radiobases_4g_caba_map.png" />
+</center>
+</div>
+</div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/datos_tic/en/tags/30daymapchallenge/">30daymapchallenge</a></span>
+
+
+
+
+      
+       
+  <script>
+  $(document).ready(function () {
+    window.initializeCodeFolding("show" === "hide");
+  });
+  </script>
+  <script src="/datos_tic/js/codefolding.js"></script>
+
+
+    </div>
+
+    
+  </div>
+
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2022
+
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/datos_tic/en/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+
+    
+  </ul>
+
+
+  <script src="/datos_tic/js/collapse.js"></script>
+  <script src="/datos_tic/js/dropdown.js"></script>
+  <script src="/datos_tic/js/transition.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

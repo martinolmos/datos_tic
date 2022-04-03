@@ -1,0 +1,496 @@
+itu_bdt_regions,iso_code,entity_name,year,currency,type,value
+The Americas,ARG,Argentina,2018,GNIpc,Fixed broadband 5GB,4.67
+The Americas,ARG,Argentina,2019,GNIpc,Fixed broadband 5GB,5.52
+The Americas,ARG,Argentina,2020,GNIpc,Fixed broadband 5GB,6.96
+The Americas,ARG,Argentina,2018,PPP,Fixed broadband 5GB,NA
+The Americas,ARG,Argentina,2019,PPP,Fixed broadband 5GB,NA
+The Americas,ARG,Argentina,2020,PPP,Fixed broadband 5GB,125.72
+The Americas,ARG,Argentina,2018,USD,Fixed broadband 5GB,48.16
+The Americas,ARG,Argentina,2019,USD,Fixed broadband 5GB,56.95
+The Americas,ARG,Argentina,2020,USD,Fixed broadband 5GB,38.15
+The Americas,BOL,Bolivia (Plurinational State of),2018,GNIpc,Fixed broadband 5GB,7.58
+The Americas,BOL,Bolivia (Plurinational State of),2019,GNIpc,Fixed broadband 5GB,7.58
+The Americas,BOL,Bolivia (Plurinational State of),2020,GNIpc,Fixed broadband 5GB,7.68
+The Americas,BOL,Bolivia (Plurinational State of),2018,PPP,Fixed broadband 5GB,42.6
+The Americas,BOL,Bolivia (Plurinational State of),2019,PPP,Fixed broadband 5GB,42.6
+The Americas,BOL,Bolivia (Plurinational State of),2020,PPP,Fixed broadband 5GB,59.04
+The Americas,BOL,Bolivia (Plurinational State of),2018,USD,Fixed broadband 5GB,21.27
+The Americas,BOL,Bolivia (Plurinational State of),2019,USD,Fixed broadband 5GB,21.27
+The Americas,BOL,Bolivia (Plurinational State of),2020,USD,Fixed broadband 5GB,22.29
+The Americas,BRA,Brazil,2018,GNIpc,Fixed broadband 5GB,1.43
+The Americas,BRA,Brazil,2019,GNIpc,Fixed broadband 5GB,1.43
+The Americas,BRA,Brazil,2020,GNIpc,Fixed broadband 5GB,2.51
+The Americas,BRA,Brazil,2018,PPP,Fixed broadband 5GB,17.74
+The Americas,BRA,Brazil,2019,PPP,Fixed broadband 5GB,17.74
+The Americas,BRA,Brazil,2020,PPP,Fixed broadband 5GB,29.17
+The Americas,BRA,Brazil,2018,USD,Fixed broadband 5GB,10.92
+The Americas,BRA,Brazil,2019,USD,Fixed broadband 5GB,10.92
+The Americas,BRA,Brazil,2020,USD,Fixed broadband 5GB,13
+The Americas,CHL,Chile,2018,GNIpc,Fixed broadband 5GB,2.68
+The Americas,CHL,Chile,2019,GNIpc,Fixed broadband 5GB,2.68
+The Americas,CHL,Chile,2020,GNIpc,Fixed broadband 5GB,2.51
+The Americas,CHL,Chile,2018,PPP,Fixed broadband 5GB,45.51
+The Americas,CHL,Chile,2019,PPP,Fixed broadband 5GB,45.51
+The Americas,CHL,Chile,2020,PPP,Fixed broadband 5GB,42.91
+The Americas,CHL,Chile,2018,USD,Fixed broadband 5GB,32.73
+The Americas,CHL,Chile,2019,USD,Fixed broadband 5GB,32.73
+The Americas,CHL,Chile,2020,USD,Fixed broadband 5GB,26.18
+The Americas,COL,Colombia,2018,GNIpc,Fixed broadband 5GB,3.93
+The Americas,COL,Colombia,2019,GNIpc,Fixed broadband 5GB,4.19
+The Americas,COL,Colombia,2020,GNIpc,Fixed broadband 5GB,4.16
+The Americas,COL,Colombia,2018,PPP,Fixed broadband 5GB,42.43
+The Americas,COL,Colombia,2019,PPP,Fixed broadband 5GB,45.27
+The Americas,COL,Colombia,2020,PPP,Fixed broadband 5GB,48.07
+The Americas,COL,Colombia,2018,USD,Fixed broadband 5GB,20.27
+The Americas,COL,Colombia,2019,USD,Fixed broadband 5GB,21.62
+The Americas,COL,Colombia,2020,USD,Fixed broadband 5GB,18.7
+The Americas,MEX,Mexico,2018,GNIpc,Fixed broadband 5GB,2.37
+The Americas,MEX,Mexico,2019,GNIpc,Fixed broadband 5GB,2.37
+The Americas,MEX,Mexico,2020,GNIpc,Fixed broadband 5GB,2.27
+The Americas,MEX,Mexico,2018,PPP,Fixed broadband 5GB,34.31
+The Americas,MEX,Mexico,2019,PPP,Fixed broadband 5GB,34.31
+The Americas,MEX,Mexico,2020,PPP,Fixed broadband 5GB,32.81
+The Americas,MEX,Mexico,2018,USD,Fixed broadband 5GB,18.14
+The Americas,MEX,Mexico,2019,USD,Fixed broadband 5GB,18.14
+The Americas,MEX,Mexico,2020,USD,Fixed broadband 5GB,15.35
+The Americas,PRY,Paraguay,2018,GNIpc,Fixed broadband 5GB,4.94
+The Americas,PRY,Paraguay,2019,GNIpc,Fixed broadband 5GB,4.98
+The Americas,PRY,Paraguay,2020,GNIpc,Fixed broadband 5GB,4.98
+The Americas,PRY,Paraguay,2018,PPP,Fixed broadband 5GB,50.1
+The Americas,PRY,Paraguay,2019,PPP,Fixed broadband 5GB,50.47
+The Americas,PRY,Paraguay,2020,PPP,Fixed broadband 5GB,51.88
+The Americas,PRY,Paraguay,2018,USD,Fixed broadband 5GB,23.38
+The Americas,PRY,Paraguay,2019,USD,Fixed broadband 5GB,23.55
+The Americas,PRY,Paraguay,2020,USD,Fixed broadband 5GB,19.93
+The Americas,PER,Peru,2018,GNIpc,Fixed broadband 5GB,3.35
+The Americas,PER,Peru,2019,GNIpc,Fixed broadband 5GB,3.47
+The Americas,PER,Peru,2020,GNIpc,Fixed broadband 5GB,3.56
+The Americas,PER,Peru,2018,PPP,Fixed broadband 5GB,34.68
+The Americas,PER,Peru,2019,PPP,Fixed broadband 5GB,35.89
+The Americas,PER,Peru,2020,PPP,Fixed broadband 5GB,35.08
+The Americas,PER,Peru,2018,USD,Fixed broadband 5GB,18.23
+The Americas,PER,Peru,2019,USD,Fixed broadband 5GB,18.86
+The Americas,PER,Peru,2020,USD,Fixed broadband 5GB,19.36
+Europe countries,ESP,Spain,2018,GNIpc,Fixed broadband 5GB,2.17
+Europe countries,ESP,Spain,2019,GNIpc,Fixed broadband 5GB,1.92
+Europe countries,ESP,Spain,2020,GNIpc,Fixed broadband 5GB,1.72
+Europe countries,ESP,Spain,2018,PPP,Fixed broadband 5GB,62.92
+Europe countries,ESP,Spain,2019,PPP,Fixed broadband 5GB,55.93
+Europe countries,ESP,Spain,2020,PPP,Fixed broadband 5GB,53.96
+Europe countries,ESP,Spain,2018,USD,Fixed broadband 5GB,53.14
+Europe countries,ESP,Spain,2019,USD,Fixed broadband 5GB,47.24
+Europe countries,ESP,Spain,2020,USD,Fixed broadband 5GB,43.1
+The Americas,USA,United States,2018,GNIpc,Fixed broadband 5GB,0.83
+The Americas,USA,United States,2019,GNIpc,Fixed broadband 5GB,0.83
+The Americas,USA,United States,2020,GNIpc,Fixed broadband 5GB,0.99
+The Americas,USA,United States,2018,PPP,Fixed broadband 5GB,43.54
+The Americas,USA,United States,2019,PPP,Fixed broadband 5GB,43.54
+The Americas,USA,United States,2020,PPP,Fixed broadband 5GB,54.42
+The Americas,USA,United States,2018,USD,Fixed broadband 5GB,43.54
+The Americas,USA,United States,2019,USD,Fixed broadband 5GB,43.54
+The Americas,USA,United States,2020,USD,Fixed broadband 5GB,54.42
+The Americas,URY,Uruguay,2018,GNIpc,Fixed broadband 5GB,2.38
+The Americas,URY,Uruguay,2019,GNIpc,Fixed broadband 5GB,2.65
+The Americas,URY,Uruguay,2020,GNIpc,Fixed broadband 5GB,2.65
+The Americas,URY,Uruguay,2018,PPP,Fixed broadband 5GB,37.3
+The Americas,URY,Uruguay,2019,PPP,Fixed broadband 5GB,41.4
+The Americas,URY,Uruguay,2020,PPP,Fixed broadband 5GB,42.91
+The Americas,URY,Uruguay,2018,USD,Fixed broadband 5GB,31.08
+The Americas,URY,Uruguay,2019,USD,Fixed broadband 5GB,34.5
+The Americas,URY,Uruguay,2020,USD,Fixed broadband 5GB,27.65
+The Americas,ARG,Argentina,2018,GNIpc,Mobile broadband data only 1.5 GB,1.17
+The Americas,ARG,Argentina,2019,GNIpc,Mobile broadband data only 1.5 GB,1.31
+The Americas,ARG,Argentina,2020,GNIpc,Mobile broadband data only 1.5 GB,1.06
+The Americas,ARG,Argentina,2018,PPP,Mobile broadband data only 1.5 GB,NA
+The Americas,ARG,Argentina,2019,PPP,Mobile broadband data only 1.5 GB,NA
+The Americas,ARG,Argentina,2020,PPP,Mobile broadband data only 1.5 GB,19.19
+The Americas,ARG,Argentina,2018,USD,Mobile broadband data only 1.5 GB,12.1
+The Americas,ARG,Argentina,2019,USD,Mobile broadband data only 1.5 GB,13.53
+The Americas,ARG,Argentina,2020,USD,Mobile broadband data only 1.5 GB,5.82
+The Americas,BOL,Bolivia (Plurinational State of),2018,GNIpc,Mobile broadband data only 1.5 GB,2.58
+The Americas,BOL,Bolivia (Plurinational State of),2019,GNIpc,Mobile broadband data only 1.5 GB,2.58
+The Americas,BOL,Bolivia (Plurinational State of),2020,GNIpc,Mobile broadband data only 1.5 GB,2.49
+The Americas,BOL,Bolivia (Plurinational State of),2018,PPP,Mobile broadband data only 1.5 GB,14.49
+The Americas,BOL,Bolivia (Plurinational State of),2019,PPP,Mobile broadband data only 1.5 GB,14.49
+The Americas,BOL,Bolivia (Plurinational State of),2020,PPP,Mobile broadband data only 1.5 GB,19.17
+The Americas,BOL,Bolivia (Plurinational State of),2018,USD,Mobile broadband data only 1.5 GB,7.24
+The Americas,BOL,Bolivia (Plurinational State of),2019,USD,Mobile broadband data only 1.5 GB,7.24
+The Americas,BOL,Bolivia (Plurinational State of),2020,USD,Mobile broadband data only 1.5 GB,7.24
+The Americas,BRA,Brazil,2018,GNIpc,Mobile broadband data only 1.5 GB,4.67
+The Americas,BRA,Brazil,2019,GNIpc,Mobile broadband data only 1.5 GB,1.8
+The Americas,BRA,Brazil,2020,GNIpc,Mobile broadband data only 1.5 GB,1.43
+The Americas,BRA,Brazil,2018,PPP,Mobile broadband data only 1.5 GB,57.81
+The Americas,BRA,Brazil,2019,PPP,Mobile broadband data only 1.5 GB,22.23
+The Americas,BRA,Brazil,2020,PPP,Mobile broadband data only 1.5 GB,16.67
+The Americas,BRA,Brazil,2018,USD,Mobile broadband data only 1.5 GB,35.58
+The Americas,BRA,Brazil,2019,USD,Mobile broadband data only 1.5 GB,13.68
+The Americas,BRA,Brazil,2020,USD,Mobile broadband data only 1.5 GB,7.43
+The Americas,CHL,Chile,2018,GNIpc,Mobile broadband data only 1.5 GB,0.89
+The Americas,CHL,Chile,2019,GNIpc,Mobile broadband data only 1.5 GB,0.89
+The Americas,CHL,Chile,2020,GNIpc,Mobile broadband data only 1.5 GB,0.72
+The Americas,CHL,Chile,2018,PPP,Mobile broadband data only 1.5 GB,15.18
+The Americas,CHL,Chile,2019,PPP,Mobile broadband data only 1.5 GB,15.15
+The Americas,CHL,Chile,2020,PPP,Mobile broadband data only 1.5 GB,12.27
+The Americas,CHL,Chile,2018,USD,Mobile broadband data only 1.5 GB,10.92
+The Americas,CHL,Chile,2019,USD,Mobile broadband data only 1.5 GB,10.9
+The Americas,CHL,Chile,2020,USD,Mobile broadband data only 1.5 GB,7.48
+The Americas,COL,Colombia,2018,GNIpc,Mobile broadband data only 1.5 GB,2.74
+The Americas,COL,Colombia,2019,GNIpc,Mobile broadband data only 1.5 GB,2.74
+The Americas,COL,Colombia,2020,GNIpc,Mobile broadband data only 1.5 GB,2.35
+The Americas,COL,Colombia,2018,PPP,Mobile broadband data only 1.5 GB,29.61
+The Americas,COL,Colombia,2019,PPP,Mobile broadband data only 1.5 GB,29.61
+The Americas,COL,Colombia,2020,PPP,Mobile broadband data only 1.5 GB,27.12
+The Americas,COL,Colombia,2018,USD,Mobile broadband data only 1.5 GB,14.14
+The Americas,COL,Colombia,2019,USD,Mobile broadband data only 1.5 GB,14.14
+The Americas,COL,Colombia,2020,USD,Mobile broadband data only 1.5 GB,10.55
+The Americas,MEX,Mexico,2018,GNIpc,Mobile broadband data only 1.5 GB,1.02
+The Americas,MEX,Mexico,2019,GNIpc,Mobile broadband data only 1.5 GB,1.02
+The Americas,MEX,Mexico,2020,GNIpc,Mobile broadband data only 1.5 GB,1.3
+The Americas,MEX,Mexico,2018,PPP,Mobile broadband data only 1.5 GB,14.75
+The Americas,MEX,Mexico,2019,PPP,Mobile broadband data only 1.5 GB,14.75
+The Americas,MEX,Mexico,2020,PPP,Mobile broadband data only 1.5 GB,18.8
+The Americas,MEX,Mexico,2018,USD,Mobile broadband data only 1.5 GB,7.79
+The Americas,MEX,Mexico,2019,USD,Mobile broadband data only 1.5 GB,7.79
+The Americas,MEX,Mexico,2020,USD,Mobile broadband data only 1.5 GB,8.8
+The Americas,PRY,Paraguay,2018,GNIpc,Mobile broadband data only 1.5 GB,5.16
+The Americas,PRY,Paraguay,2019,GNIpc,Mobile broadband data only 1.5 GB,4.42
+The Americas,PRY,Paraguay,2020,GNIpc,Mobile broadband data only 1.5 GB,2.95
+The Americas,PRY,Paraguay,2018,PPP,Mobile broadband data only 1.5 GB,52.34
+The Americas,PRY,Paraguay,2019,PPP,Mobile broadband data only 1.5 GB,44.86
+The Americas,PRY,Paraguay,2020,PPP,Mobile broadband data only 1.5 GB,30.75
+The Americas,PRY,Paraguay,2018,USD,Mobile broadband data only 1.5 GB,24.42
+The Americas,PRY,Paraguay,2019,USD,Mobile broadband data only 1.5 GB,20.93
+The Americas,PRY,Paraguay,2020,USD,Mobile broadband data only 1.5 GB,11.81
+The Americas,PER,Peru,2018,GNIpc,Mobile broadband data only 1.5 GB,1.57
+The Americas,PER,Peru,2019,GNIpc,Mobile broadband data only 1.5 GB,1.68
+The Americas,PER,Peru,2020,GNIpc,Mobile broadband data only 1.5 GB,1.51
+The Americas,PER,Peru,2018,PPP,Mobile broadband data only 1.5 GB,16.21
+The Americas,PER,Peru,2019,PPP,Mobile broadband data only 1.5 GB,17.37
+The Americas,PER,Peru,2020,PPP,Mobile broadband data only 1.5 GB,14.9
+The Americas,PER,Peru,2018,USD,Mobile broadband data only 1.5 GB,8.52
+The Americas,PER,Peru,2019,USD,Mobile broadband data only 1.5 GB,9.13
+The Americas,PER,Peru,2020,USD,Mobile broadband data only 1.5 GB,8.23
+Europe countries,ESP,Spain,2018,GNIpc,Mobile broadband data only 1.5 GB,0.29
+Europe countries,ESP,Spain,2019,GNIpc,Mobile broadband data only 1.5 GB,0.33
+Europe countries,ESP,Spain,2020,GNIpc,Mobile broadband data only 1.5 GB,0.31
+Europe countries,ESP,Spain,2018,PPP,Mobile broadband data only 1.5 GB,8.39
+Europe countries,ESP,Spain,2019,PPP,Mobile broadband data only 1.5 GB,9.72
+Europe countries,ESP,Spain,2020,PPP,Mobile broadband data only 1.5 GB,9.87
+Europe countries,ESP,Spain,2018,USD,Mobile broadband data only 1.5 GB,7.09
+Europe countries,ESP,Spain,2019,USD,Mobile broadband data only 1.5 GB,8.21
+Europe countries,ESP,Spain,2020,USD,Mobile broadband data only 1.5 GB,7.88
+The Americas,USA,United States,2018,GNIpc,Mobile broadband data only 1.5 GB,0.42
+The Americas,USA,United States,2019,GNIpc,Mobile broadband data only 1.5 GB,0.42
+The Americas,USA,United States,2020,GNIpc,Mobile broadband data only 1.5 GB,0.4
+The Americas,USA,United States,2018,PPP,Mobile broadband data only 1.5 GB,21.78
+The Americas,USA,United States,2019,PPP,Mobile broadband data only 1.5 GB,21.78
+The Americas,USA,United States,2020,PPP,Mobile broadband data only 1.5 GB,21.78
+The Americas,USA,United States,2018,USD,Mobile broadband data only 1.5 GB,21.78
+The Americas,USA,United States,2019,USD,Mobile broadband data only 1.5 GB,21.78
+The Americas,USA,United States,2020,USD,Mobile broadband data only 1.5 GB,21.78
+The Americas,URY,Uruguay,2018,GNIpc,Mobile broadband data only 1.5 GB,1.48
+The Americas,URY,Uruguay,2019,GNIpc,Mobile broadband data only 1.5 GB,1.61
+The Americas,URY,Uruguay,2020,GNIpc,Mobile broadband data only 1.5 GB,1.03
+The Americas,URY,Uruguay,2018,PPP,Mobile broadband data only 1.5 GB,23.24
+The Americas,URY,Uruguay,2019,PPP,Mobile broadband data only 1.5 GB,25.19
+The Americas,URY,Uruguay,2020,PPP,Mobile broadband data only 1.5 GB,16.74
+The Americas,URY,Uruguay,2018,USD,Mobile broadband data only 1.5 GB,19.37
+The Americas,URY,Uruguay,2019,USD,Mobile broadband data only 1.5 GB,20.99
+The Americas,URY,Uruguay,2020,USD,Mobile broadband data only 1.5 GB,10.78
+The Americas,ARG,Argentina,2018,GNIpc,Mobile Cellular Low Usage,3.33
+The Americas,ARG,Argentina,2019,GNIpc,Mobile Cellular Low Usage,3.92
+The Americas,ARG,Argentina,2020,GNIpc,Mobile Cellular Low Usage,3.69
+The Americas,ARG,Argentina,2018,PPP,Mobile Cellular Low Usage,NA
+The Americas,ARG,Argentina,2019,PPP,Mobile Cellular Low Usage,NA
+The Americas,ARG,Argentina,2020,PPP,Mobile Cellular Low Usage,66.6
+The Americas,ARG,Argentina,2018,USD,Mobile Cellular Low Usage,34.28
+The Americas,ARG,Argentina,2019,USD,Mobile Cellular Low Usage,40.36
+The Americas,ARG,Argentina,2020,USD,Mobile Cellular Low Usage,20.21
+The Americas,BOL,Bolivia (Plurinational State of),2018,GNIpc,Mobile Cellular Low Usage,3.34
+The Americas,BOL,Bolivia (Plurinational State of),2019,GNIpc,Mobile Cellular Low Usage,3.34
+The Americas,BOL,Bolivia (Plurinational State of),2020,GNIpc,Mobile Cellular Low Usage,3.24
+The Americas,BOL,Bolivia (Plurinational State of),2018,PPP,Mobile Cellular Low Usage,18.81
+The Americas,BOL,Bolivia (Plurinational State of),2019,PPP,Mobile Cellular Low Usage,18.81
+The Americas,BOL,Bolivia (Plurinational State of),2020,PPP,Mobile Cellular Low Usage,24.88
+The Americas,BOL,Bolivia (Plurinational State of),2018,USD,Mobile Cellular Low Usage,9.39
+The Americas,BOL,Bolivia (Plurinational State of),2019,USD,Mobile Cellular Low Usage,9.39
+The Americas,BOL,Bolivia (Plurinational State of),2020,USD,Mobile Cellular Low Usage,9.39
+The Americas,BRA,Brazil,2018,GNIpc,Mobile Cellular Low Usage,1.8
+The Americas,BRA,Brazil,2019,GNIpc,Mobile Cellular Low Usage,1.8
+The Americas,BRA,Brazil,2020,GNIpc,Mobile Cellular Low Usage,1.43
+The Americas,BRA,Brazil,2018,PPP,Mobile Cellular Low Usage,22.23
+The Americas,BRA,Brazil,2019,PPP,Mobile Cellular Low Usage,22.23
+The Americas,BRA,Brazil,2020,PPP,Mobile Cellular Low Usage,16.67
+The Americas,BRA,Brazil,2018,USD,Mobile Cellular Low Usage,13.68
+The Americas,BRA,Brazil,2019,USD,Mobile Cellular Low Usage,13.68
+The Americas,BRA,Brazil,2020,USD,Mobile Cellular Low Usage,7.43
+The Americas,CHL,Chile,2018,GNIpc,Mobile Cellular Low Usage,1.25
+The Americas,CHL,Chile,2019,GNIpc,Mobile Cellular Low Usage,1.25
+The Americas,CHL,Chile,2020,GNIpc,Mobile Cellular Low Usage,1.12
+The Americas,CHL,Chile,2018,PPP,Mobile Cellular Low Usage,21.25
+The Americas,CHL,Chile,2019,PPP,Mobile Cellular Low Usage,21.25
+The Americas,CHL,Chile,2020,PPP,Mobile Cellular Low Usage,19.22
+The Americas,CHL,Chile,2018,USD,Mobile Cellular Low Usage,15.28
+The Americas,CHL,Chile,2019,USD,Mobile Cellular Low Usage,15.28
+The Americas,CHL,Chile,2020,USD,Mobile Cellular Low Usage,11.72
+The Americas,COL,Colombia,2018,GNIpc,Mobile Cellular Low Usage,1.47
+The Americas,COL,Colombia,2019,GNIpc,Mobile Cellular Low Usage,1.38
+The Americas,COL,Colombia,2020,GNIpc,Mobile Cellular Low Usage,1.24
+The Americas,COL,Colombia,2018,PPP,Mobile Cellular Low Usage,15.87
+The Americas,COL,Colombia,2019,PPP,Mobile Cellular Low Usage,14.92
+The Americas,COL,Colombia,2020,PPP,Mobile Cellular Low Usage,14.35
+The Americas,COL,Colombia,2018,USD,Mobile Cellular Low Usage,7.58
+The Americas,COL,Colombia,2019,USD,Mobile Cellular Low Usage,7.13
+The Americas,COL,Colombia,2020,USD,Mobile Cellular Low Usage,5.58
+The Americas,MEX,Mexico,2018,GNIpc,Mobile Cellular Low Usage,0.52
+The Americas,MEX,Mexico,2019,GNIpc,Mobile Cellular Low Usage,0.52
+The Americas,MEX,Mexico,2020,GNIpc,Mobile Cellular Low Usage,0.5
+The Americas,MEX,Mexico,2018,PPP,Mobile Cellular Low Usage,7.53
+The Americas,MEX,Mexico,2019,PPP,Mobile Cellular Low Usage,7.53
+The Americas,MEX,Mexico,2020,PPP,Mobile Cellular Low Usage,7.21
+The Americas,MEX,Mexico,2018,USD,Mobile Cellular Low Usage,3.98
+The Americas,MEX,Mexico,2019,USD,Mobile Cellular Low Usage,3.98
+The Americas,MEX,Mexico,2020,USD,Mobile Cellular Low Usage,3.37
+The Americas,PRY,Paraguay,2018,GNIpc,Mobile Cellular Low Usage,3.05
+The Americas,PRY,Paraguay,2019,GNIpc,Mobile Cellular Low Usage,2.9
+The Americas,PRY,Paraguay,2020,GNIpc,Mobile Cellular Low Usage,2.25
+The Americas,PRY,Paraguay,2018,PPP,Mobile Cellular Low Usage,30.96
+The Americas,PRY,Paraguay,2019,PPP,Mobile Cellular Low Usage,29.39
+The Americas,PRY,Paraguay,2020,PPP,Mobile Cellular Low Usage,23.44
+The Americas,PRY,Paraguay,2018,USD,Mobile Cellular Low Usage,14.44
+The Americas,PRY,Paraguay,2019,USD,Mobile Cellular Low Usage,13.71
+The Americas,PRY,Paraguay,2020,USD,Mobile Cellular Low Usage,9
+The Americas,PER,Peru,2018,GNIpc,Mobile Cellular Low Usage,2.03
+The Americas,PER,Peru,2019,GNIpc,Mobile Cellular Low Usage,2.03
+The Americas,PER,Peru,2020,GNIpc,Mobile Cellular Low Usage,1.96
+The Americas,PER,Peru,2018,PPP,Mobile Cellular Low Usage,21.02
+The Americas,PER,Peru,2019,PPP,Mobile Cellular Low Usage,21.02
+The Americas,PER,Peru,2020,PPP,Mobile Cellular Low Usage,19.32
+The Americas,PER,Peru,2018,USD,Mobile Cellular Low Usage,11.04
+The Americas,PER,Peru,2019,USD,Mobile Cellular Low Usage,11.04
+The Americas,PER,Peru,2020,USD,Mobile Cellular Low Usage,10.66
+Europe countries,ESP,Spain,2018,GNIpc,Mobile Cellular Low Usage,0.57
+Europe countries,ESP,Spain,2019,GNIpc,Mobile Cellular Low Usage,0.67
+Europe countries,ESP,Spain,2020,GNIpc,Mobile Cellular Low Usage,0.54
+Europe countries,ESP,Spain,2018,PPP,Mobile Cellular Low Usage,16.7
+Europe countries,ESP,Spain,2019,PPP,Mobile Cellular Low Usage,19.42
+Europe countries,ESP,Spain,2020,PPP,Mobile Cellular Low Usage,16.88
+Europe countries,ESP,Spain,2018,USD,Mobile Cellular Low Usage,14.1
+Europe countries,ESP,Spain,2019,USD,Mobile Cellular Low Usage,16.4
+Europe countries,ESP,Spain,2020,USD,Mobile Cellular Low Usage,13.49
+The Americas,USA,United States,2018,GNIpc,Mobile Cellular Low Usage,0.62
+The Americas,USA,United States,2019,GNIpc,Mobile Cellular Low Usage,0.62
+The Americas,USA,United States,2020,GNIpc,Mobile Cellular Low Usage,0.59
+The Americas,USA,United States,2018,PPP,Mobile Cellular Low Usage,32.66
+The Americas,USA,United States,2019,PPP,Mobile Cellular Low Usage,32.66
+The Americas,USA,United States,2020,PPP,Mobile Cellular Low Usage,32.66
+The Americas,USA,United States,2018,USD,Mobile Cellular Low Usage,32.66
+The Americas,USA,United States,2019,USD,Mobile Cellular Low Usage,32.66
+The Americas,USA,United States,2020,USD,Mobile Cellular Low Usage,32.66
+The Americas,URY,Uruguay,2018,GNIpc,Mobile Cellular Low Usage,1.36
+The Americas,URY,Uruguay,2019,GNIpc,Mobile Cellular Low Usage,1.36
+The Americas,URY,Uruguay,2020,GNIpc,Mobile Cellular Low Usage,1.22
+The Americas,URY,Uruguay,2018,PPP,Mobile Cellular Low Usage,21.28
+The Americas,URY,Uruguay,2019,PPP,Mobile Cellular Low Usage,21.28
+The Americas,URY,Uruguay,2020,PPP,Mobile Cellular Low Usage,19.69
+The Americas,URY,Uruguay,2018,USD,Mobile Cellular Low Usage,17.73
+The Americas,URY,Uruguay,2019,USD,Mobile Cellular Low Usage,17.73
+The Americas,URY,Uruguay,2020,USD,Mobile Cellular Low Usage,12.69
+The Americas,ARG,Argentina,2018,GNIpc,Mobile Data and Voice Low Usage,4.68
+The Americas,ARG,Argentina,2019,GNIpc,Mobile Data and Voice Low Usage,5.56
+The Americas,ARG,Argentina,2020,GNIpc,Mobile Data and Voice Low Usage,4.88
+The Americas,ARG,Argentina,2018,PPP,Mobile Data and Voice Low Usage,NA
+The Americas,ARG,Argentina,2019,PPP,Mobile Data and Voice Low Usage,NA
+The Americas,ARG,Argentina,2020,PPP,Mobile Data and Voice Low Usage,88.09
+The Americas,ARG,Argentina,2018,USD,Mobile Data and Voice Low Usage,48.23
+The Americas,ARG,Argentina,2019,USD,Mobile Data and Voice Low Usage,57.31
+The Americas,ARG,Argentina,2020,USD,Mobile Data and Voice Low Usage,26.73
+The Americas,BOL,Bolivia (Plurinational State of),2018,GNIpc,Mobile Data and Voice Low Usage,5.57
+The Americas,BOL,Bolivia (Plurinational State of),2019,GNIpc,Mobile Data and Voice Low Usage,5.57
+The Americas,BOL,Bolivia (Plurinational State of),2020,GNIpc,Mobile Data and Voice Low Usage,5.38
+The Americas,BOL,Bolivia (Plurinational State of),2018,PPP,Mobile Data and Voice Low Usage,31.3
+The Americas,BOL,Bolivia (Plurinational State of),2019,PPP,Mobile Data and Voice Low Usage,31.3
+The Americas,BOL,Bolivia (Plurinational State of),2020,PPP,Mobile Data and Voice Low Usage,41.41
+The Americas,BOL,Bolivia (Plurinational State of),2018,USD,Mobile Data and Voice Low Usage,15.63
+The Americas,BOL,Bolivia (Plurinational State of),2019,USD,Mobile Data and Voice Low Usage,15.63
+The Americas,BOL,Bolivia (Plurinational State of),2020,USD,Mobile Data and Voice Low Usage,15.63
+The Americas,BRA,Brazil,2018,GNIpc,Mobile Data and Voice Low Usage,1.8
+The Americas,BRA,Brazil,2019,GNIpc,Mobile Data and Voice Low Usage,1.8
+The Americas,BRA,Brazil,2020,GNIpc,Mobile Data and Voice Low Usage,1.43
+The Americas,BRA,Brazil,2018,PPP,Mobile Data and Voice Low Usage,22.23
+The Americas,BRA,Brazil,2019,PPP,Mobile Data and Voice Low Usage,22.23
+The Americas,BRA,Brazil,2020,PPP,Mobile Data and Voice Low Usage,16.67
+The Americas,BRA,Brazil,2018,USD,Mobile Data and Voice Low Usage,13.68
+The Americas,BRA,Brazil,2019,USD,Mobile Data and Voice Low Usage,13.68
+The Americas,BRA,Brazil,2020,USD,Mobile Data and Voice Low Usage,7.43
+The Americas,CHL,Chile,2018,GNIpc,Mobile Data and Voice Low Usage,1.07
+The Americas,CHL,Chile,2019,GNIpc,Mobile Data and Voice Low Usage,1.07
+The Americas,CHL,Chile,2020,GNIpc,Mobile Data and Voice Low Usage,0.84
+The Americas,CHL,Chile,2018,PPP,Mobile Data and Voice Low Usage,18.21
+The Americas,CHL,Chile,2019,PPP,Mobile Data and Voice Low Usage,18.19
+The Americas,CHL,Chile,2020,PPP,Mobile Data and Voice Low Usage,14.31
+The Americas,CHL,Chile,2018,USD,Mobile Data and Voice Low Usage,13.1
+The Americas,CHL,Chile,2019,USD,Mobile Data and Voice Low Usage,13.08
+The Americas,CHL,Chile,2020,USD,Mobile Data and Voice Low Usage,8.73
+The Americas,COL,Colombia,2018,GNIpc,Mobile Data and Voice Low Usage,2.03
+The Americas,COL,Colombia,2019,GNIpc,Mobile Data and Voice Low Usage,2.03
+The Americas,COL,Colombia,2020,GNIpc,Mobile Data and Voice Low Usage,1.76
+The Americas,COL,Colombia,2018,PPP,Mobile Data and Voice Low Usage,21.9
+The Americas,COL,Colombia,2019,PPP,Mobile Data and Voice Low Usage,21.9
+The Americas,COL,Colombia,2020,PPP,Mobile Data and Voice Low Usage,20.34
+The Americas,COL,Colombia,2018,USD,Mobile Data and Voice Low Usage,10.46
+The Americas,COL,Colombia,2019,USD,Mobile Data and Voice Low Usage,10.46
+The Americas,COL,Colombia,2020,USD,Mobile Data and Voice Low Usage,7.91
+The Americas,MEX,Mexico,2018,GNIpc,Mobile Data and Voice Low Usage,1.02
+The Americas,MEX,Mexico,2019,GNIpc,Mobile Data and Voice Low Usage,1.02
+The Americas,MEX,Mexico,2020,GNIpc,Mobile Data and Voice Low Usage,1.3
+The Americas,MEX,Mexico,2018,PPP,Mobile Data and Voice Low Usage,14.75
+The Americas,MEX,Mexico,2019,PPP,Mobile Data and Voice Low Usage,14.75
+The Americas,MEX,Mexico,2020,PPP,Mobile Data and Voice Low Usage,18.8
+The Americas,MEX,Mexico,2018,USD,Mobile Data and Voice Low Usage,7.79
+The Americas,MEX,Mexico,2019,USD,Mobile Data and Voice Low Usage,7.79
+The Americas,MEX,Mexico,2020,USD,Mobile Data and Voice Low Usage,8.8
+The Americas,PRY,Paraguay,2018,GNIpc,Mobile Data and Voice Low Usage,4.53
+The Americas,PRY,Paraguay,2019,GNIpc,Mobile Data and Voice Low Usage,2.87
+The Americas,PRY,Paraguay,2020,GNIpc,Mobile Data and Voice Low Usage,3.13
+The Americas,PRY,Paraguay,2018,PPP,Mobile Data and Voice Low Usage,45.99
+The Americas,PRY,Paraguay,2019,PPP,Mobile Data and Voice Low Usage,29.16
+The Americas,PRY,Paraguay,2020,PPP,Mobile Data and Voice Low Usage,32.67
+The Americas,PRY,Paraguay,2018,USD,Mobile Data and Voice Low Usage,21.46
+The Americas,PRY,Paraguay,2019,USD,Mobile Data and Voice Low Usage,13.61
+The Americas,PRY,Paraguay,2020,USD,Mobile Data and Voice Low Usage,12.55
+The Americas,PER,Peru,2018,GNIpc,Mobile Data and Voice Low Usage,1.57
+The Americas,PER,Peru,2019,GNIpc,Mobile Data and Voice Low Usage,1.68
+The Americas,PER,Peru,2020,GNIpc,Mobile Data and Voice Low Usage,1.51
+The Americas,PER,Peru,2018,PPP,Mobile Data and Voice Low Usage,16.21
+The Americas,PER,Peru,2019,PPP,Mobile Data and Voice Low Usage,17.37
+The Americas,PER,Peru,2020,PPP,Mobile Data and Voice Low Usage,14.9
+The Americas,PER,Peru,2018,USD,Mobile Data and Voice Low Usage,8.52
+The Americas,PER,Peru,2019,USD,Mobile Data and Voice Low Usage,9.13
+The Americas,PER,Peru,2020,USD,Mobile Data and Voice Low Usage,8.23
+Europe countries,ESP,Spain,2018,GNIpc,Mobile Data and Voice Low Usage,0.58
+Europe countries,ESP,Spain,2019,GNIpc,Mobile Data and Voice Low Usage,0.67
+Europe countries,ESP,Spain,2020,GNIpc,Mobile Data and Voice Low Usage,0.54
+Europe countries,ESP,Spain,2018,PPP,Mobile Data and Voice Low Usage,16.78
+Europe countries,ESP,Spain,2019,PPP,Mobile Data and Voice Low Usage,19.42
+Europe countries,ESP,Spain,2020,PPP,Mobile Data and Voice Low Usage,16.88
+Europe countries,ESP,Spain,2018,USD,Mobile Data and Voice Low Usage,14.17
+Europe countries,ESP,Spain,2019,USD,Mobile Data and Voice Low Usage,16.4
+Europe countries,ESP,Spain,2020,USD,Mobile Data and Voice Low Usage,13.49
+The Americas,USA,United States,2018,GNIpc,Mobile Data and Voice Low Usage,0.62
+The Americas,USA,United States,2019,GNIpc,Mobile Data and Voice Low Usage,0.62
+The Americas,USA,United States,2020,GNIpc,Mobile Data and Voice Low Usage,0.59
+The Americas,USA,United States,2018,PPP,Mobile Data and Voice Low Usage,32.66
+The Americas,USA,United States,2019,PPP,Mobile Data and Voice Low Usage,32.66
+The Americas,USA,United States,2020,PPP,Mobile Data and Voice Low Usage,32.66
+The Americas,USA,United States,2018,USD,Mobile Data and Voice Low Usage,32.66
+The Americas,USA,United States,2019,USD,Mobile Data and Voice Low Usage,32.66
+The Americas,USA,United States,2020,USD,Mobile Data and Voice Low Usage,32.66
+The Americas,URY,Uruguay,2018,GNIpc,Mobile Data and Voice Low Usage,0.97
+The Americas,URY,Uruguay,2019,GNIpc,Mobile Data and Voice Low Usage,1.06
+The Americas,URY,Uruguay,2020,GNIpc,Mobile Data and Voice Low Usage,1.03
+The Americas,URY,Uruguay,2018,PPP,Mobile Data and Voice Low Usage,15.23
+The Americas,URY,Uruguay,2019,PPP,Mobile Data and Voice Low Usage,16.6
+The Americas,URY,Uruguay,2020,PPP,Mobile Data and Voice Low Usage,16.74
+The Americas,URY,Uruguay,2018,USD,Mobile Data and Voice Low Usage,12.69
+The Americas,URY,Uruguay,2019,USD,Mobile Data and Voice Low Usage,13.83
+The Americas,URY,Uruguay,2020,USD,Mobile Data and Voice Low Usage,10.78
+The Americas,ARG,Argentina,2018,GNIpc,Mobile Data and Voice High Usage,8.14
+The Americas,ARG,Argentina,2019,GNIpc,Mobile Data and Voice High Usage,9.7
+The Americas,ARG,Argentina,2020,GNIpc,Mobile Data and Voice High Usage,9.02
+The Americas,ARG,Argentina,2018,PPP,Mobile Data and Voice High Usage,NA
+The Americas,ARG,Argentina,2019,PPP,Mobile Data and Voice High Usage,NA
+The Americas,ARG,Argentina,2020,PPP,Mobile Data and Voice High Usage,NA
+The Americas,ARG,Argentina,2018,USD,Mobile Data and Voice High Usage,83.86
+The Americas,ARG,Argentina,2019,USD,Mobile Data and Voice High Usage,99.98
+The Americas,ARG,Argentina,2020,USD,Mobile Data and Voice High Usage,49.47
+The Americas,BOL,Bolivia (Plurinational State of),2018,GNIpc,Mobile Data and Voice High Usage,11.96
+The Americas,BOL,Bolivia (Plurinational State of),2019,GNIpc,Mobile Data and Voice High Usage,11.96
+The Americas,BOL,Bolivia (Plurinational State of),2020,GNIpc,Mobile Data and Voice High Usage,11.57
+The Americas,BOL,Bolivia (Plurinational State of),2018,PPP,Mobile Data and Voice High Usage,67.24
+The Americas,BOL,Bolivia (Plurinational State of),2019,PPP,Mobile Data and Voice High Usage,67.24
+The Americas,BOL,Bolivia (Plurinational State of),2020,PPP,Mobile Data and Voice High Usage,88.95
+The Americas,BOL,Bolivia (Plurinational State of),2018,USD,Mobile Data and Voice High Usage,33.57
+The Americas,BOL,Bolivia (Plurinational State of),2019,USD,Mobile Data and Voice High Usage,33.57
+The Americas,BOL,Bolivia (Plurinational State of),2020,USD,Mobile Data and Voice High Usage,33.57
+The Americas,BRA,Brazil,2018,GNIpc,Mobile Data and Voice High Usage,1.8
+The Americas,BRA,Brazil,2019,GNIpc,Mobile Data and Voice High Usage,1.8
+The Americas,BRA,Brazil,2020,GNIpc,Mobile Data and Voice High Usage,1.43
+The Americas,BRA,Brazil,2018,PPP,Mobile Data and Voice High Usage,22.23
+The Americas,BRA,Brazil,2019,PPP,Mobile Data and Voice High Usage,22.23
+The Americas,BRA,Brazil,2020,PPP,Mobile Data and Voice High Usage,16.67
+The Americas,BRA,Brazil,2018,USD,Mobile Data and Voice High Usage,13.68
+The Americas,BRA,Brazil,2019,USD,Mobile Data and Voice High Usage,13.68
+The Americas,BRA,Brazil,2020,USD,Mobile Data and Voice High Usage,7.43
+The Americas,CHL,Chile,2018,GNIpc,Mobile Data and Voice High Usage,1.52
+The Americas,CHL,Chile,2019,GNIpc,Mobile Data and Voice High Usage,1.52
+The Americas,CHL,Chile,2020,GNIpc,Mobile Data and Voice High Usage,1.13
+The Americas,CHL,Chile,2018,PPP,Mobile Data and Voice High Usage,25.8
+The Americas,CHL,Chile,2019,PPP,Mobile Data and Voice High Usage,25.78
+The Americas,CHL,Chile,2020,PPP,Mobile Data and Voice High Usage,19.42
+The Americas,CHL,Chile,2018,USD,Mobile Data and Voice High Usage,18.56
+The Americas,CHL,Chile,2019,USD,Mobile Data and Voice High Usage,18.54
+The Americas,CHL,Chile,2020,USD,Mobile Data and Voice High Usage,11.85
+The Americas,COL,Colombia,2018,GNIpc,Mobile Data and Voice High Usage,2.62
+The Americas,COL,Colombia,2019,GNIpc,Mobile Data and Voice High Usage,2.62
+The Americas,COL,Colombia,2020,GNIpc,Mobile Data and Voice High Usage,2.35
+The Americas,COL,Colombia,2018,PPP,Mobile Data and Voice High Usage,28.34
+The Americas,COL,Colombia,2019,PPP,Mobile Data and Voice High Usage,28.34
+The Americas,COL,Colombia,2020,PPP,Mobile Data and Voice High Usage,27.12
+The Americas,COL,Colombia,2018,USD,Mobile Data and Voice High Usage,13.53
+The Americas,COL,Colombia,2019,USD,Mobile Data and Voice High Usage,13.53
+The Americas,COL,Colombia,2020,USD,Mobile Data and Voice High Usage,10.55
+The Americas,MEX,Mexico,2018,GNIpc,Mobile Data and Voice High Usage,1.36
+The Americas,MEX,Mexico,2019,GNIpc,Mobile Data and Voice High Usage,1.36
+The Americas,MEX,Mexico,2020,GNIpc,Mobile Data and Voice High Usage,1.3
+The Americas,MEX,Mexico,2018,PPP,Mobile Data and Voice High Usage,19.66
+The Americas,MEX,Mexico,2019,PPP,Mobile Data and Voice High Usage,19.66
+The Americas,MEX,Mexico,2020,PPP,Mobile Data and Voice High Usage,18.8
+The Americas,MEX,Mexico,2018,USD,Mobile Data and Voice High Usage,10.39
+The Americas,MEX,Mexico,2019,USD,Mobile Data and Voice High Usage,10.39
+The Americas,MEX,Mexico,2020,USD,Mobile Data and Voice High Usage,8.8
+The Americas,PRY,Paraguay,2018,GNIpc,Mobile Data and Voice High Usage,5.55
+The Americas,PRY,Paraguay,2019,GNIpc,Mobile Data and Voice High Usage,4.81
+The Americas,PRY,Paraguay,2020,GNIpc,Mobile Data and Voice High Usage,3.59
+The Americas,PRY,Paraguay,2018,PPP,Mobile Data and Voice High Usage,56.27
+The Americas,PRY,Paraguay,2019,PPP,Mobile Data and Voice High Usage,48.79
+The Americas,PRY,Paraguay,2020,PPP,Mobile Data and Voice High Usage,37.47
+The Americas,PRY,Paraguay,2018,USD,Mobile Data and Voice High Usage,26.26
+The Americas,PRY,Paraguay,2019,USD,Mobile Data and Voice High Usage,22.77
+The Americas,PRY,Paraguay,2020,USD,Mobile Data and Voice High Usage,14.39
+The Americas,PER,Peru,2018,GNIpc,Mobile Data and Voice High Usage,1.57
+The Americas,PER,Peru,2019,GNIpc,Mobile Data and Voice High Usage,1.68
+The Americas,PER,Peru,2020,GNIpc,Mobile Data and Voice High Usage,1.51
+The Americas,PER,Peru,2018,PPP,Mobile Data and Voice High Usage,16.21
+The Americas,PER,Peru,2019,PPP,Mobile Data and Voice High Usage,17.37
+The Americas,PER,Peru,2020,PPP,Mobile Data and Voice High Usage,14.9
+The Americas,PER,Peru,2018,USD,Mobile Data and Voice High Usage,8.52
+The Americas,PER,Peru,2019,USD,Mobile Data and Voice High Usage,9.13
+The Americas,PER,Peru,2020,USD,Mobile Data and Voice High Usage,8.23
+Europe countries,ESP,Spain,2018,GNIpc,Mobile Data and Voice High Usage,0.88
+Europe countries,ESP,Spain,2019,GNIpc,Mobile Data and Voice High Usage,0.9
+Europe countries,ESP,Spain,2020,GNIpc,Mobile Data and Voice High Usage,1.03
+Europe countries,ESP,Spain,2018,PPP,Mobile Data and Voice High Usage,25.45
+Europe countries,ESP,Spain,2019,PPP,Mobile Data and Voice High Usage,26.19
+Europe countries,ESP,Spain,2020,PPP,Mobile Data and Voice High Usage,32.28
+Europe countries,ESP,Spain,2018,USD,Mobile Data and Voice High Usage,21.49
+Europe countries,ESP,Spain,2019,USD,Mobile Data and Voice High Usage,22.12
+Europe countries,ESP,Spain,2020,USD,Mobile Data and Voice High Usage,25.78
+The Americas,USA,United States,2018,GNIpc,Mobile Data and Voice High Usage,0.83
+The Americas,USA,United States,2019,GNIpc,Mobile Data and Voice High Usage,0.83
+The Americas,USA,United States,2020,GNIpc,Mobile Data and Voice High Usage,0.79
+The Americas,USA,United States,2018,PPP,Mobile Data and Voice High Usage,43.55
+The Americas,USA,United States,2019,PPP,Mobile Data and Voice High Usage,43.55
+The Americas,USA,United States,2020,PPP,Mobile Data and Voice High Usage,43.55
+The Americas,USA,United States,2018,USD,Mobile Data and Voice High Usage,43.55
+The Americas,USA,United States,2019,USD,Mobile Data and Voice High Usage,43.55
+The Americas,USA,United States,2020,USD,Mobile Data and Voice High Usage,43.55
+The Americas,URY,Uruguay,2018,GNIpc,Mobile Data and Voice High Usage,1.62
+The Americas,URY,Uruguay,2019,GNIpc,Mobile Data and Voice High Usage,1.76
+The Americas,URY,Uruguay,2020,GNIpc,Mobile Data and Voice High Usage,1.52
+The Americas,URY,Uruguay,2018,PPP,Mobile Data and Voice High Usage,25.35
+The Americas,URY,Uruguay,2019,PPP,Mobile Data and Voice High Usage,27.54
+The Americas,URY,Uruguay,2020,PPP,Mobile Data and Voice High Usage,24.58
+The Americas,URY,Uruguay,2018,USD,Mobile Data and Voice High Usage,21.12
+The Americas,URY,Uruguay,2019,USD,Mobile Data and Voice High Usage,22.95
+The Americas,URY,Uruguay,2020,USD,Mobile Data and Voice High Usage,15.84
