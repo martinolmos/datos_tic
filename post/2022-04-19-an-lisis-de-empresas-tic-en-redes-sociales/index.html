@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="es"
+  data-theme=""
+  class="html"
+><head>
+  <title>
+    
+      Martin Olmos
+        |
+        Análisis de Empresas TIC en Redes Sociales
+
+
+      
+
+
+    
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Martin Olmos" />
+  <meta
+    name="description"
+    content="
+      Un blog sobre datos y TICs
+
+
+    "
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/datos_tic/scss/main.min.f352646462edab92f52d05d49d4f84691eb933dfe24804838ab4c80fcf0378c4.css"
+      integrity="sha256-81JkZGLtq5L1LQXUnU&#43;EaR65M9/iSASDirTID88DeMQ="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/datos_tic/css/codefolding.min.47eb75f4d59a85ad446ff53d90b792049267d7134465ca63a49a10b66d710e32.css"
+      integrity="sha256-R&#43;t19NWaha1Eb/U9kLeSBJJn1xNEZcpjpJoQtm1xDjI="
+      crossorigin="anonymous"
+      media="screen"
+    />
+
+  
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/fontawesome.min.69685904d5c2a0c6258d03c207b778c10466edf6cea928cc0164c376b0ad0930.css"
+    integrity="sha256-aWhZBNXCoMYljQPCB7d4wQRm7fbOqSjMAWTDdrCtCTA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/solid.min.6d585e78d28cce1200d39fb133c92ed83df01738da721d0f48fb6eac62d24e04.css"
+    integrity="sha256-bVheeNKMzhIA05&#43;xM8ku2D3wFzjach0PSPturGLSTgQ="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/brands.min.6b00d96498d59caa0dbcf9b49d30d821915291f2ceb0e19248523c8607ff43fa.css"
+    integrity="sha256-awDZZJjVnKoNvPm0nTDYIZFSkfLOsOGSSFI8hgf/Q/o="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Indie&#43;Flower&amp;family=Roboto:ital,wght@0,100;0,400;0,700;1,400&amp;display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="/datos_tic/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/datos_tic/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/datos_tic/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/datos_tic/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://martinolmos.github.io/datos_tic/post/2022-04-19-an-lisis-de-empresas-tic-en-redes-sociales/" />
+
+  
+  
+  <script 
+    src="https://code.jquery.com/jquery-2.2.4.min.js" 
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" 
+    crossorigin="anonymous">
+  </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/datos_tic/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js"
+      integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo="
+      crossorigin="anonymous"
+    ></script>
+
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://martinolmos.github.io/datos_tic/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Análisis de Empresas TIC en Redes Sociales"/>
+<meta name="twitter:description" content="El Procesamiento de Lenguaje Natural o PLN es el campo de estudio sobre el análisis computacional del lenguaje humano."/>
+
+
+
+  
+  <meta property="og:title" content="Análisis de Empresas TIC en Redes Sociales" />
+<meta property="og:description" content="El Procesamiento de Lenguaje Natural o PLN es el campo de estudio sobre el análisis computacional del lenguaje humano." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://martinolmos.github.io/datos_tic/post/2022-04-19-an-lisis-de-empresas-tic-en-redes-sociales/" /><meta property="og:image" content="https://martinolmos.github.io/datos_tic/images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-04-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-04-19T00:00:00+00:00" /><meta property="og:site_name" content="Datos y TICs" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Análisis de Empresas TIC en Redes Sociales",
+        "headline": "Análisis de Empresas TIC en Redes Sociales",
+        "alternativeHeadline": "",
+        "description": "
+      
+        El Procesamiento de Lenguaje Natural o PLN es el campo de estudio sobre el análisis computacional del lenguaje humano.
+
+
+      
+
+
+    ",
+        "inLanguage": "es",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/martinolmos.github.io\/datos_tic\/post\/2022-04-19-an-lisis-de-empresas-tic-en-redes-sociales\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "copyrightYear" : "2022",
+        "dateCreated": "2022-04-19T00:00:00.00Z",
+        "datePublished": "2022-04-19T00:00:00.00Z",
+        "dateModified": "2022-04-19T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Martin Olmos",
+            "url": "https://martinolmos.github.io/datos_tic/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/martinolmos.github.io\/datos_tic\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://martinolmos.github.io/datos_tic/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/martinolmos.github.io\/datos_tic\/post\/2022-04-19-an-lisis-de-empresas-tic-en-redes-sociales\/",
+        "wordCount" : "440",
+        "genre" : [ 
+      
+      "NLP"
+
+    
+      
+        ,
+
+      
+      "social networks"
+
+    ],
+        "keywords" : [ 
+      
+      "python"
+
+    
+      
+        ,
+
+      
+      "nlp"
+
+    
+      
+        ,
+
+      
+      "sentiment analysis"
+
+    
+      
+        ,
+
+      
+      "twitter"
+
+    ]
+    }
+  </script>
+
+
+
+</head>
+<body
+    
+      class="body theme--light"
+
+    
+  >
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/datos_tic/images/profile_pic.jpeg"
+        alt="profile picture"
+      />
+      <h1 class="sidebar__introduction-title">
+        <a href="/datos_tic">Datos y TICs</a>
+      </h1>
+      <div class="sidebar__introduction-description">
+        <p>Un blog sobre datos y TICs</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.linkedin.com/in/martinolmos/" rel="me" aria-label="Linkedin" title="Linkedin">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://github.com/martinolmos" rel="me" aria-label="GitHub" title="GitHub">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.instagram.com/eltinco/" rel="me" aria-label="instagram" title="instagram">
+            <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="mailto:martin.olmos.ar@gmail.com" rel="me" aria-label="e-mail" title="e-mail">
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2022
+
+      
+    </li>
+    
+  </ul>
+
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/"
+            
+            title=""
+            >Principal</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/post/"
+            
+            title=""
+            >Posteos</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/sobremi/"
+            
+            title=""
+            >Sobre mí</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/contact/"
+            
+            title=""
+            >Contacto</a
+          >
+        </li>
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Análisis De Empresas TIC en Redes Sociales</h1>
+      
+      
+<div id="code-folding-buttons" class="btn-group pull-right">
+  <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-_extension-text-contrast="">
+    <span>Show/Hide All Code</span> 
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" style="min-width: 50px;">
+  <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+  <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+  </ul>
+</div>
+
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                19/4/2022
+
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">3 minutos de lectura</span>
+          </li>
+        </ul>
+
+      
+<script src="https://martinolmos.github.io/datos_tic/post/2022-04-19-an-lisis-de-empresas-tic-en-redes-sociales/index.es_files/header-attrs/header-attrs.js"></script>
+
+
+<p>El <a href="https://es.wikipedia.org/wiki/Procesamiento_de_lenguajes_naturales">Procesamiento de Lenguaje Natural</a> o PLN es el campo de estudio sobre el análisis computacional del lenguaje humano. Esta área de conomiento incluye una variedad muy amplia de técnicas y aplicaciones. Una de ellas, dentro del ámbito del análisis y comprensión del lenguaje, es el <a href="https://es.wikipedia.org/wiki/Análisis_de_sentimiento">Análisis de Sentimientos</a>, una aplicación que permite clasificar un texto de acuerdo a su carga o polaridad positiva, negativa o neutra.</p>
+<p>Aquí veremos como con unas pocas líneas de código python uno puede:</p>
+<ul>
+<li>Conectarse a la API de Twitter</li>
+<li>Descargar los últimos twitts en los que se menciona a determinadas empresas TIC</li>
+<li>Utilizar un modelo de machine learning pre-entrenado para realizar el análisis de sentimientos de los twitts</li>
+<li>Visualizar el análisis</li>
+</ul>
+<p>El modelo pre-entrenado que vamos a utilizar es <a href="https://arxiv.org/abs/2111.09453">RoBERTuito</a>, un modelo entrenado con 500 millones de tweets en Español. Los autores del paper/modelo lo disponibilizaron en forma gratuita a través de la plataforma <a href="https://huggingface.co">HuggingFace</a> y librería <a href="https://github.com/pysentimiento/pysentimiento">pysentimiento</a> para facilitar la investigación y las aplicaciones de PLN en Español.</p>
+<p>Aclaración 1: es natural y esperable que las menciones a las empresas en redes tengan un sesgo negativo, ya que es uno de los canales para hacer llegar reclamos y por tratarse de un servicio pago no es habitual que la conformidad con el servicio redunde en menciones positivas.</p>
+<p>Aclaración 2: para acceder a los tweets con las menciones es necesario primero tramitar credenciales de autenticación en <a href="https://developer.twitter.com/en/">Twitter for Developers</a>. Las mismas estarán guardadas en un archivo llamado <code>search_tweets_creds.yml</code> con la siguiente forma:</p>
+<pre echo="TRUE," eval="FALSE"><code>search_tweets_api:
+    bearer_token: MY_BEARER_TOKEN
+    endpoint: https://api.twitter.com/2/tweets/search/recent</code></pre>
+<p>Para adquirir los tweets utilizaré la librería <a href="https://github.com/twitterdev/search-tweets-python/tree/v2">searchtweets-v2</a>, un Cliente de Python para la Versión 2 de la API de Twitter.</p>
+<p>Con el siguiente código me autentico y requiero los últimos 100 tweets que mencionan a cada una de las empresas que nos interesan:</p>
+<pre class="python"><code>from searchtweets import load_credentials, ResultStream, gen_request_parameters, collect_results
+
+search_args = load_credentials(filename=&quot;search_tweets_creds.yml&quot;, 
+                               yaml_key=&quot;search_tweets_api&quot;,
+                               env_overwrite=False)
+
+empresas = [&quot;Telecentro&quot;, &quot;MovistarArg&quot;, &quot;ClaroArgentina&quot;, &quot;PersonalAr&quot;]
+empresas_tweets = dict()
+
+for empresa in empresas:
+    query = gen_request_parameters(empresa, results_per_call=100, granularity=None)
+    tweets = collect_results(query,
+                             max_tweets=100,
+                             result_stream_args=search_args)
+    empresas_tweets[empresa] = tweets[0][&#39;data&#39;]</code></pre>
+<p>Preproceso los tweets, aplico el análisis de sentimientos y extraigo la categoría para cada uno de los tweets y empresas:</p>
+<pre class="python"><code>from pysentimiento import create_analyzer
+
+analyzer = create_analyzer(task=&quot;sentiment&quot;, lang=&quot;es&quot;, model_name=&quot;pysentimiento/robertuito-sentiment-analysis&quot;)
+
+empresas_tweets_sent = dict()
+empresas_tweets_sent_out = dict()
+
+for empresa in empresas:
+    empresas_tweets_sent[empresa] = [analyzer.predict(tuit) for tuit in empresas_tweets_proc[empresa]]
+    empresas_tweets_sent_out[empresa] = [tuit.output for tuit in empresas_tweets_sent[empresa]]</code></pre>
+<p>Visualizo los resultados:</p>
+<pre class="python"><code>import numpy as np
+import matplotlib.pyplot as plt
+
+empresas_tweets_sent_count = dict()
+fig, axes = plt.subplots(2, 2, figsize=(8, 6),dpi=144)
+
+plt.suptitle(&quot;Análisis de Sentimientos de Empresas TIC&quot;)
+
+array_index = [(0,0), (0,1), (1,0), (1,1)]
+axes_title_font_size = 10
+
+for empresa, index in zip(empresas, array_index):
+    empresas_tweets_sent_count[empresa] = np.unique(empresas_tweets_sent_out[empresa], return_counts=True)
+    axes[index].pie(empresas_tweets_sent_count[empresa][1], labels=empresas_tweets_sent_count[empresa][0], wedgeprops=dict(width=.5), autopct=&#39;%1.f%%&#39;)
+    axes[index].set_title(empresa, fontsize=axes_title_font_size)</code></pre>
+<center>
+<img src="sent_empresas_tic.png" />
+</center>
+</div>
+    <div class="post__footer">
+      
+        <span><a class="category" href="/datos_tic/categories/nlp/">NLP</a><a class="category" href="/datos_tic/categories/social-networks/">social networks</a></span>
+
+
+
+
+      
+
+      
+        <span><a class="tag" href="/datos_tic/tags/python/">python</a><a class="tag" href="/datos_tic/tags/nlp/">nlp</a><a class="tag" href="/datos_tic/tags/sentiment-analysis/">sentiment analysis</a><a class="tag" href="/datos_tic/tags/twitter/">twitter</a></span>
+
+
+
+
+      
+      
+      
+  <script src="/datos_tic/js/collapse.js"></script>
+  <script src="/datos_tic/js/dropdown.js"></script>
+  <script src="/datos_tic/js/transition.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+
+       
+  <script>
+  $(document).ready(function () {
+    window.initializeCodeFolding("show" === "show");
+  });
+  </script>
+  <script src="/datos_tic/js/codefolding.js"></script>
+
+
+
+    </div>
+
+    <div id="comment">
+          <h2>comentarios</h2>
+          <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "datos-tic" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+  </div>
+
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2022
+
+      
+    </li>
+    
+  </ul>
+
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

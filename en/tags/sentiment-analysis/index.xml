@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sentiment analysis on Data &amp; ICTs</title>
+    <link>https://martinolmos.github.io/datos_tic/en/tags/sentiment-analysis/</link>
+    <description>Recent content in sentiment analysis on Data &amp; ICTs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://martinolmos.github.io/datos_tic/en/tags/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICT Companies Social Network Analysis</title>
+      <link>https://martinolmos.github.io/datos_tic/en/post/2022-04-20-ict-companies-social-network-analysis/</link>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinolmos.github.io/datos_tic/en/post/2022-04-20-ict-companies-social-network-analysis/</guid>
+      
+        <description>Natural Language Processing or NLP is the field of study on computational analysis of human language.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

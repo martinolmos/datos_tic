@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  class="html"
+><head>
+  <title>
+    
+      Martin Olmos
+        |
+        Using Satellite Images
+
+
+      
+
+
+    
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Martin Olmos" />
+  <meta
+    name="description"
+    content="
+      A blog on data and ICTs
+
+
+    "
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/datos_tic/scss/main.min.f352646462edab92f52d05d49d4f84691eb933dfe24804838ab4c80fcf0378c4.css"
+      integrity="sha256-81JkZGLtq5L1LQXUnU&#43;EaR65M9/iSASDirTID88DeMQ="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/datos_tic/css/codefolding.min.47eb75f4d59a85ad446ff53d90b792049267d7134465ca63a49a10b66d710e32.css"
+      integrity="sha256-R&#43;t19NWaha1Eb/U9kLeSBJJn1xNEZcpjpJoQtm1xDjI="
+      crossorigin="anonymous"
+      media="screen"
+    />
+
+  
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/fontawesome.min.69685904d5c2a0c6258d03c207b778c10466edf6cea928cc0164c376b0ad0930.css"
+    integrity="sha256-aWhZBNXCoMYljQPCB7d4wQRm7fbOqSjMAWTDdrCtCTA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/solid.min.6d585e78d28cce1200d39fb133c92ed83df01738da721d0f48fb6eac62d24e04.css"
+    integrity="sha256-bVheeNKMzhIA05&#43;xM8ku2D3wFzjach0PSPturGLSTgQ="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/brands.min.6b00d96498d59caa0dbcf9b49d30d821915291f2ceb0e19248523c8607ff43fa.css"
+    integrity="sha256-awDZZJjVnKoNvPm0nTDYIZFSkfLOsOGSSFI8hgf/Q/o="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Indie&#43;Flower&amp;family=Roboto:ital,wght@0,100;0,400;0,700;1,400&amp;display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="/datos_tic/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/datos_tic/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/datos_tic/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/datos_tic/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://martinolmos.github.io/datos_tic/en/post/2022-03-19-using-satellite-images/" />
+
+  
+  
+  <script 
+    src="https://code.jquery.com/jquery-2.2.4.min.js" 
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" 
+    crossorigin="anonymous">
+  </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/datos_tic/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js"
+      integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo="
+      crossorigin="anonymous"
+    ></script>
+
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://martinolmos.github.io/datos_tic/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Using Satellite Images"/>
+<meta name="twitter:description" content="Brief concept intro1 Satellite remote sensing or satellite remote sensing is the activity of collecting data through the use of sensors, in this case satellites, from a place to which there is no physical access, that is, remotely."/>
+
+
+
+  
+  <meta property="og:title" content="Using Satellite Images" />
+<meta property="og:description" content="Brief concept intro1 Satellite remote sensing or satellite remote sensing is the activity of collecting data through the use of sensors, in this case satellites, from a place to which there is no physical access, that is, remotely." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://martinolmos.github.io/datos_tic/en/post/2022-03-19-using-satellite-images/" /><meta property="og:image" content="https://martinolmos.github.io/datos_tic/images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-03-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-03-19T00:00:00+00:00" /><meta property="og:site_name" content="Data &amp; ICTs" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Using Satellite Images",
+        "headline": "Using Satellite Images",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Brief concept intro1 Satellite remote sensing or satellite remote sensing is the activity of collecting data through the use of sensors, in this case satellites, from a place to which there is no physical access, that is, remotely.
+
+
+      
+
+
+    ",
+        "inLanguage": "es",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/martinolmos.github.io\/datos_tic\/en\/post\/2022-03-19-using-satellite-images\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "copyrightYear" : "2022",
+        "dateCreated": "2022-03-19T00:00:00.00Z",
+        "datePublished": "2022-03-19T00:00:00.00Z",
+        "dateModified": "2022-03-19T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Martin Olmos",
+            "url": "https://martinolmos.github.io/datos_tic/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/martinolmos.github.io\/datos_tic\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://martinolmos.github.io/datos_tic/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/martinolmos.github.io\/datos_tic\/en\/post\/2022-03-19-using-satellite-images\/",
+        "wordCount" : "639",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
+</head>
+<body
+    
+      class="body theme--light"
+
+    
+  >
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/datos_tic/images/profile_pic.jpeg"
+        alt="profile picture"
+      />
+      <h1 class="sidebar__introduction-title">
+        <a href="/datos_tic/en">Data &amp; ICTs</a>
+      </h1>
+      <div class="sidebar__introduction-description">
+        <p>A blog on data and ICTs</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.linkedin.com/in/martinolmos/" rel="me" aria-label="Linkedin" title="Linkedin">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://github.com/martinolmos" rel="me" aria-label="GitHub" title="GitHub">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.instagram.com/eltinco/" rel="me" aria-label="instagram" title="instagram">
+            <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="mailto:martin.olmos.ar@gmail.com" rel="me" aria-label="e-mail" title="e-mail">
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2022
+
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/datos_tic/en/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+
+    
+  </ul>
+
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/"
+            
+            title=""
+            >Home</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/post/"
+            
+            title=""
+            >Posts</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/about/"
+            
+            title=""
+            >About</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/en/contact/"
+            
+            title=""
+            >Contact</a
+          >
+        </li>
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Using Satellite Images</h1>
+      
+      
+<div id="code-folding-buttons" class="btn-group pull-right">
+  <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-_extension-text-contrast="">
+    <span>Show/Hide All Code</span> 
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" style="min-width: 50px;">
+  <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+  <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+  </ul>
+</div>
+
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                19/3/2022
+
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">3-minute read</span>
+          </li>
+        </ul>
+
+      
+<script src="https://martinolmos.github.io/datos_tic/en/post/2022-03-19-using-satellite-images/index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="brief-concept-intro1" class="section level2">
+<h2>Brief concept intro<sup>1</sup></h2>
+<p>Satellite remote sensing or satellite remote sensing is the activity of collecting data through the use of sensors, in this case satellites, from a place to which there is no physical access, that is, remotely.</p>
+<p>These data consist of the measurement of electromagnetic energy. Electromagnetic radiation is a form of energy emitted by all matter with a temperature above absolute zero (0 Kelvin or -272° Celcius). X-rays, ultraviolet, visible light, infrared, heat, microwaves, and radio and television waves are all forms of electromagnetic energy with different wavelengths or frequencies and are part of the electromagnetic spectrum.</p>
+<p>Hotter objects emit more electromagnetic energy and shorter wavelengths than cooler ones. The most common source of electromagnetic radiation is the Sun. Objects that make up the Earth’s surface reflect and emit electromagnetic radiation in different ways.</p>
+<p>The portion of the electromagnetic spectrum where the peak of solar radiation is located is called the visible band, since human vision is sensitive to these waves. Remote sensing allows us to extend the human ability to perceive electromagnetic radiation beyond the visual band, so the parts of the electromagnetic spectrum that we cannot see are very important.</p>
+<p>The objects that make up the Earth’s surface reflect electromagnetic radiation in different ways. The appeal of multispectral remote sensing is that objects indistinguishable at one wavelength may be easy to distinguish at another. The bands commonly used to perceive occupation and land use are: visible, infrared and microwave.</p>
+<p>Understanding the different ways in which specific wavelengths interact with different objects allows finding “stamps” or “signatures” that will allow those objects to be detected automatically.</p>
+<p>The applications are diverse: monitoring of deforestation, soil degradation, detection and classification of objects as dissimilar as wetlands, informal settlements and gated communities, monitoring of water quality and salinity, air quality, detection of clandestine dumps, monitoring of landfills health, monitoring the environmental impact of certain industries, among others.</p>
+<p>In this post I am not going to advance in detection or classification of objects but, following <a href="https://www.tylermw.com/a-step-by-step-guide-to-making-3d-maps-with-satellite-imagery-in-r/">this</a> tutorial I am going to use satellite images together with <a href="https://es.wikipedia.org/wiki/Misión_topográfica_Radar_Shuttle">SRTM</a> elevation data to make a 3D map of my favorite place in the world: the <a href="https://www.sanjuan.tur.ar/que-hago/aventura/recomendados/dique-cuesta-del-viento">Cuesta del Viento Dam</a> in Rodeo, San Juan.</p>
+<p>Here is the code:</p>
+<pre class="r"><code>library(rayshader)
+library(sp)
+library(raster)
+library(scales)
+
+rodeo_elevation &lt;- raster::raster(&quot;S31W070.hgt&quot;)
+
+height_shade(raster_to_matrix(rodeo_elevation)) %&gt;% 
+  plot_map()
+
+rodeo_r &lt;- raster::raster(&quot;LC08_L1TP_232081_20210817_20210826_01_T1_B4.TIF&quot;)
+rodeo_g &lt;- raster::raster(&quot;LC08_L1TP_232081_20210817_20210826_01_T1_B3.TIF&quot;)
+rodeo_b &lt;- raster::raster(&quot;LC08_L1TP_232081_20210817_20210826_01_T1_B2.TIF&quot;)
+
+rodeo_rgb &lt;- raster::stack(rodeo_r, rodeo_g, rodeo_b)
+
+raster::plotRGB(rodeo_rgb, scale=255^2)
+
+rodeo_rgb_corrected &lt;- sqrt(raster::stack(rodeo_r, rodeo_g, rodeo_b))
+raster::plotRGB(rodeo_rgb_corrected)
+
+raster::crs(rodeo_r)
+raster::crs(rodeo_elevation)
+
+rodeo_elevation_utm &lt;- raster::projectRaster(rodeo_elevation, 
+                                             crs = crs(rodeo_r), 
+                                             method = &quot;bilinear&quot;)
+
+crs(rodeo_elevation_utm)
+
+bottom_left &lt;- c(y=-69.1478, x=-30.2374)
+top_right &lt;- c(y=-69.0077, x=-30.1295)
+
+extent_latlong = sp::SpatialPoints(rbind(bottom_left, top_right), 
+                                   proj4string=sp::CRS(&quot;+proj=longlat +ellps=WGS84 +datum=WGS84&quot;))
+extent_utm &lt;- sp::spTransform(extent_latlong, raster::crs(rodeo_elevation_utm))
+
+e &lt;- raster::extent(extent_utm)
+
+rodeo_rgb_cropped &lt;- raster::crop(rodeo_rgb_corrected, e)
+rodeo_elevation_cropped &lt;- raster::crop(rodeo_elevation_utm, e)
+
+names(rodeo_rgb_cropped) &lt;- c(&quot;r&quot;, &quot;g&quot;, &quot;b&quot;)
+
+rodeo_r_cropped = rayshader::raster_to_matrix(rodeo_rgb_cropped$r)
+rodeo_g_cropped = rayshader::raster_to_matrix(rodeo_rgb_cropped$g)
+rodeo_b_cropped = rayshader::raster_to_matrix(rodeo_rgb_cropped$b)
+
+rodeo_elevation_matrix &lt;- rayshader::raster_to_matrix(rodeo_elevation_cropped)
+
+rodeo_rgb_array &lt;- array(0, dim = c(nrow(rodeo_r_cropped), ncol(rodeo_r_cropped), 3))
+
+rodeo_rgb_array[,,1] &lt;- rodeo_r_cropped/255
+rodeo_rgb_array[,,2] &lt;- rodeo_g_cropped/255
+rodeo_rgb_array[,,3] &lt;- rodeo_b_cropped/255
+
+rodeo_rgb_array &lt;- aperm(rodeo_rgb_array, c(2,1,3))
+
+plot_map(rodeo_rgb_array)
+
+rodeo_rgb_contrast &lt;- scales::rescale(rodeo_rgb_array, to=c(0,1))
+
+plot_map(rodeo_rgb_contrast)
+
+plot_3d(hillshade = rodeo_rgb_contrast, 
+        heightmap = rodeo_elevation_matrix,
+        windowsize = c(1100, 900),
+        zscale = 15, 
+        shadowdepth = -50, 
+        zoom = 0.5,
+        phi = 45, 
+        theta = -45, 
+        fov = 70, 
+        background = &quot;#F2E1D0&quot;, 
+        shadowcolor = &quot;#523E2B&quot;)
+
+render_snapshot(title_text = &quot;Dique Cuesta del Viento, San Juan | Imagery: Landsat 8 | DEM: 30m SRTM&quot;, 
+                title_bar_color = &quot;#523E2B&quot;, title_color = &quot;white&quot;, title_bar_alpha = 1)
+
+# Video
+
+angles &lt;- seq(0, 360, length.out = 1441)[-1]
+
+for(i in 1:1440) {
+  render_camera(theta = -45+angles[i])
+  render_snapshot(filename = sprintf(&quot;cuesta_%i.png&quot;, i),
+                  title_text = &quot;Dique Cuesta del Viento, San Juan | Imagery: Landsat 8 | DEM: 30m SRTM&quot;,
+                  title_bar_color = &quot;#1f5214&quot;, title_color = &quot;white&quot;, title_bar_alpha = 1)
+}
+
+rgl::rgl.close()</code></pre>
+<p>And the resulting visualization:</p>
+<p><video src="cuesta.mp4" style="width:90.0%" controls=""><a href="cuesta.mp4">Video</a></video></p>
+<p><sup>1</sup>Based on the MOOC “Imagery, Automation, and Applications” from the University of California, Davis and the book by David DiBiase, The Nature of Geographic Information. Penn State University, College of Earth and Mineral Sciences. Retrieved from <a href="https://www.e-education.psu.edu/natureofgeoinfo/" class="uri">https://www.e-education.psu.edu/natureofgeoinfo/</a></p>
+</div>
+</div>
+    <div class="post__footer">
+      
+
+      
+      
+      
+  <script src="/datos_tic/js/collapse.js"></script>
+  <script src="/datos_tic/js/dropdown.js"></script>
+  <script src="/datos_tic/js/transition.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+
+       
+  <script>
+  $(document).ready(function () {
+    window.initializeCodeFolding("show" === "show");
+  });
+  </script>
+  <script src="/datos_tic/js/codefolding.js"></script>
+
+
+
+    </div>
+
+    <div id="comment">
+          <h2>comments</h2>
+          <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "datos-tic" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+  </div>
+
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2022
+
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/datos_tic/en/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+
+    
+  </ul>
+
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://martinolmos.github.io/datos_tic/en/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -15,11 +15,50 @@
                 href="https://martinolmos.github.io/datos_tic/en/"
                 />
   </url><url>
-    <loc>https://martinolmos.github.io/datos_tic/en/post/2022-04-12-internet-fix-access-dashboard-in-argentina/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+    <loc>https://martinolmos.github.io/datos_tic/en/categories/</loc>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://martinolmos.github.io/datos_tic/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://martinolmos.github.io/datos_tic/en/categories/"
+                />
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/en/post/2022-04-20-ict-companies-social-network-analysis/</loc>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/en/categories/nlp/</loc>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://martinolmos.github.io/datos_tic/categories/nlp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://martinolmos.github.io/datos_tic/en/categories/nlp/"
+                />
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/en/tags/nlp/</loc>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://martinolmos.github.io/datos_tic/tags/nlp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://martinolmos.github.io/datos_tic/en/tags/nlp/"
+                />
   </url><url>
     <loc>https://martinolmos.github.io/datos_tic/en/post/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -31,18 +70,76 @@
                 href="https://martinolmos.github.io/datos_tic/en/post/"
                 />
   </url><url>
-    <loc>https://martinolmos.github.io/datos_tic/en/post/2022-03-19-usando-im-genes-satelitales/</loc>
-    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
+    <loc>https://martinolmos.github.io/datos_tic/en/tags/python/</loc>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://martinolmos.github.io/datos_tic/post/2022-03-19-usando-im-genes-satelitales/"
+                href="https://martinolmos.github.io/datos_tic/tags/python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://martinolmos.github.io/datos_tic/en/post/2022-03-19-usando-im-genes-satelitales/"
+                href="https://martinolmos.github.io/datos_tic/en/tags/python/"
                 />
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/en/tags/sentiment-analysis/</loc>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://martinolmos.github.io/datos_tic/tags/sentiment-analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://martinolmos.github.io/datos_tic/en/tags/sentiment-analysis/"
+                />
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/en/categories/social-networks/</loc>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://martinolmos.github.io/datos_tic/categories/social-networks/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://martinolmos.github.io/datos_tic/en/categories/social-networks/"
+                />
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/en/tags/</loc>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://martinolmos.github.io/datos_tic/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://martinolmos.github.io/datos_tic/en/tags/"
+                />
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/en/tags/twitter/</loc>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://martinolmos.github.io/datos_tic/tags/twitter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://martinolmos.github.io/datos_tic/en/tags/twitter/"
+                />
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/en/post/2022-04-12-internet-fix-access-dashboard-in-argentina/</loc>
+    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/en/post/2022-03-19-using-satellite-images/</loc>
+    <lastmod>2022-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinolmos.github.io/datos_tic/en/post/2022-02-07-price-evolution/</loc>
     <lastmod>2022-02-07T00:00:00+00:00</lastmod>
@@ -64,19 +161,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://martinolmos.github.io/datos_tic/en/tags/30daymapchallenge/"
-                />
-  </url><url>
-    <loc>https://martinolmos.github.io/datos_tic/en/tags/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://martinolmos.github.io/datos_tic/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://martinolmos.github.io/datos_tic/en/tags/"
                 />
   </url><url>
     <loc>https://martinolmos.github.io/datos_tic/en/post/2021-11-06-30-days-map-challenge-day-1-and-2/</loc>
@@ -112,18 +196,6 @@
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinolmos.github.io/datos_tic/en/imprint/</loc>
-  </url><url>
-    <loc>https://martinolmos.github.io/datos_tic/en/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://martinolmos.github.io/datos_tic/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://martinolmos.github.io/datos_tic/en/categories/"
-                />
   </url><url>
     <loc>https://martinolmos.github.io/datos_tic/en/tags/index/</loc>
     <xhtml:link

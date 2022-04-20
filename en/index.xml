@@ -6,7 +6,18 @@
     <description>Recent content on Data &amp; ICTs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://martinolmos.github.io/datos_tic/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://martinolmos.github.io/datos_tic/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICT Companies Social Network Analysis</title>
+      <link>https://martinolmos.github.io/datos_tic/en/post/2022-04-20-ict-companies-social-network-analysis/</link>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://martinolmos.github.io/datos_tic/en/post/2022-04-20-ict-companies-social-network-analysis/</guid>
+      
+        <description>Natural Language Processing or NLP is the field of study on computational analysis of human language.</description>
+      
+    </item>
+    
     <item>
       <title>Internet Fix Access Dashboard for Argentina</title>
       <link>https://martinolmos.github.io/datos_tic/en/post/2022-04-12-internet-fix-access-dashboard-in-argentina/</link>
@@ -20,10 +31,10 @@
     
     <item>
       <title>Using Satellite Images</title>
-      <link>https://martinolmos.github.io/datos_tic/en/post/2022-03-19-usando-im-genes-satelitales/</link>
+      <link>https://martinolmos.github.io/datos_tic/en/post/2022-03-19-using-satellite-images/</link>
       <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://martinolmos.github.io/datos_tic/en/post/2022-03-19-usando-im-genes-satelitales/</guid>
+      <guid>https://martinolmos.github.io/datos_tic/en/post/2022-03-19-using-satellite-images/</guid>
       
         <description>Brief concept intro1 Satellite remote sensing or satellite remote sensing is the activity of collecting data through the use of sensors, in this case satellites, from a place to which there is no physical access, that is, remotely.</description>
       
