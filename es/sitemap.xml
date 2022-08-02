@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://martinolmos.github.io/datos_tic/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,22 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://martinolmos.github.io/datos_tic/"
+                />
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/post/2022-06-17-foro-brechas-y-equidad-digital/</loc>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/post/</loc>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://martinolmos.github.io/datos_tic/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://martinolmos.github.io/datos_tic/post/"
                 />
   </url><url>
     <loc>https://martinolmos.github.io/datos_tic/post/2022-04-19-an-lisis-de-empresas-tic-en-redes-sociales/</loc>
@@ -55,19 +71,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://martinolmos.github.io/datos_tic/tags/nlp/"
-                />
-  </url><url>
-    <loc>https://martinolmos.github.io/datos_tic/post/</loc>
-    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://martinolmos.github.io/datos_tic/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://martinolmos.github.io/datos_tic/post/"
                 />
   </url><url>
     <loc>https://martinolmos.github.io/datos_tic/tags/python/</loc>
