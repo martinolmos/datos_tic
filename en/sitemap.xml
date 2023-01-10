@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://martinolmos.github.io/datos_tic/en/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -15,11 +15,21 @@
                 href="https://martinolmos.github.io/datos_tic/en/"
                 />
   </url><url>
-    <loc>https://martinolmos.github.io/datos_tic/en/post/2022-06-17-forum-equality-digital-divide/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+    <loc>https://martinolmos.github.io/datos_tic/en/post/2023-01-08-beckham-vs-papu-gomez/</loc>
+    <lastmod>2023-01-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://martinolmos.github.io/datos_tic/post/2023-01-08-beckham-vs-papu-gomez/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://martinolmos.github.io/datos_tic/en/post/2023-01-08-beckham-vs-papu-gomez/"
+                />
   </url><url>
     <loc>https://martinolmos.github.io/datos_tic/en/post/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -30,6 +40,9 @@
                 hreflang="en"
                 href="https://martinolmos.github.io/datos_tic/en/post/"
                 />
+  </url><url>
+    <loc>https://martinolmos.github.io/datos_tic/en/post/2022-06-17-forum-equality-digital-divide/</loc>
+    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://martinolmos.github.io/datos_tic/en/categories/</loc>
     <lastmod>2022-04-20T00:00:00+00:00</lastmod>
