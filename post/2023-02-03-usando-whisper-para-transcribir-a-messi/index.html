@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="es"
+  data-theme=""
+  class="html"
+><head>
+  <title>
+    
+      Martin Olmos
+        |
+        Usando Whisper para Transcribir a Messi
+
+
+      
+
+
+    
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.89.1" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Martin Olmos" />
+  <meta
+    name="description"
+    content="
+      Un blog sobre datos y TICs
+
+
+    "
+  />
+  
+  
+  <link 
+    rel="stylesheet" 
+    href= "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/github.min.css"
+  />
+
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/datos_tic/scss/main.min.daefdc6b63a7ae6e07e737168f01cb07c217e2af14146957c35bd53bb52ef5c2.css"
+      integrity="sha256-2u/ca2Onrm4H5zcWjwHLB8IX4q8UFGlXw1vVO7Uu9cI="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/datos_tic/css/codefolding.min.47eb75f4d59a85ad446ff53d90b792049267d7134465ca63a49a10b66d710e32.css"
+      integrity="sha256-R&#43;t19NWaha1Eb/U9kLeSBJJn1xNEZcpjpJoQtm1xDjI="
+      crossorigin="anonymous"
+      media="screen"
+    />
+
+  
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/fontawesome.min.6ed18174e55f67cc20166cee1a0627c979d8684b60250269ba94f72bd6581913.css"
+    integrity="sha256-btGBdOVfZ8wgFmzuGgYnyXnYaEtgJQJpupT3K9ZYGRM="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/solid.min.6d585e78d28cce1200d39fb133c92ed83df01738da721d0f48fb6eac62d24e04.css"
+    integrity="sha256-bVheeNKMzhIA05&#43;xM8ku2D3wFzjach0PSPturGLSTgQ="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/datos_tic/fontawesome/css/brands.min.6b00d96498d59caa0dbcf9b49d30d821915291f2ceb0e19248523c8607ff43fa.css"
+    integrity="sha256-awDZZJjVnKoNvPm0nTDYIZFSkfLOsOGSSFI8hgf/Q/o="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Indie&#43;Flower&amp;family=Roboto:ital,wght@0,100;0,400;0,700;1,400&amp;display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="/datos_tic/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/datos_tic/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/datos_tic/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/datos_tic/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://martinolmos.github.io/datos_tic/post/2023-02-03-usando-whisper-para-transcribir-a-messi/" />
+
+  
+  
+
+  <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js">
+  </script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/r.min.js">
+  </script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/languages/python.min.js">
+  </script>
+
+  <script 
+    src="https://code.jquery.com/jquery-2.2.4.min.js" 
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" 
+    crossorigin="anonymous">
+  </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/anatole-header.min.46e6a54097480084f8f52c20ca1aa7425b4fad17029a887fd4017b12e311a72d.js"
+    integrity="sha256-RualQJdIAIT49SwgyhqnQltPrRcCmoh/1AF7EuMRpy0="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/datos_tic/js/anatole-theme-switcher.min.5557c8ff5617a01067ac258fd70b9b992506e379317b0da51e5e0f6e018b408a.js"
+      integrity="sha256-VVfI/1YXoBBnrCWP1wubmSUG43kxew2lHl4PbgGLQIo="
+      crossorigin="anonymous"
+    ></script>
+
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://martinolmos.github.io/datos_tic/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Usando Whisper para Transcribir a Messi"/>
+<meta name="twitter:description" content="Whisper es un modelo de código abierto para reconocimiento del habla desarrollado por OpenAI."/>
+
+
+
+  
+  <meta property="og:title" content="Usando Whisper para Transcribir a Messi" />
+<meta property="og:description" content="Whisper es un modelo de código abierto para reconocimiento del habla desarrollado por OpenAI." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://martinolmos.github.io/datos_tic/post/2023-02-03-usando-whisper-para-transcribir-a-messi/" /><meta property="og:image" content="https://martinolmos.github.io/datos_tic/images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-02-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-02-03T00:00:00+00:00" /><meta property="og:site_name" content="Datos y TICs" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Usando Whisper para Transcribir a Messi",
+        "headline": "Usando Whisper para Transcribir a Messi",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Whisper es un modelo de código abierto para reconocimiento del habla desarrollado por OpenAI.
+
+
+      
+
+
+    ",
+        "inLanguage": "es",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/martinolmos.github.io\/datos_tic\/post\/2023-02-03-usando-whisper-para-transcribir-a-messi\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Martin Olmos"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-02-03T00:00:00.00Z",
+        "datePublished": "2023-02-03T00:00:00.00Z",
+        "dateModified": "2023-02-03T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Martin Olmos",
+            "url": "https://martinolmos.github.io/datos_tic/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/martinolmos.github.io\/datos_tic\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://martinolmos.github.io/datos_tic/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/martinolmos.github.io\/datos_tic\/post\/2023-02-03-usando-whisper-para-transcribir-a-messi\/",
+        "wordCount" : "220",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
+</head>
+<body
+    
+      class="body theme--light"
+
+    
+  >
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/datos_tic/images/profile_pic.jpeg"
+        alt="profile picture"
+      />
+      <h1 class="sidebar__introduction-title">
+        <a href="/datos_tic">Datos y TICs</a>
+      </h1>
+      <div class="sidebar__introduction-description">
+        <p>Un blog sobre datos y TICs</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.linkedin.com/in/martinolmos/" rel="me" aria-label="Linkedin" title="Linkedin">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://github.com/martinolmos" rel="me" aria-label="GitHub" title="GitHub">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="https://www.instagram.com/eltinco/" rel="me" aria-label="instagram" title="instagram">
+            <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li class="sidebar__list-item">
+          <a href="mailto:martin.olmos.ar@gmail.com" rel="me" aria-label="e-mail" title="e-mail">
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2023
+
+      
+    </li>
+    
+  </ul>
+
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/"
+            
+            title=""
+            >Principal</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/post/"
+            
+            title=""
+            >Posteos</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/sobremi/"
+            
+            title=""
+            >Sobre mí</a
+          >
+        </li>
+
+      
+        
+        <li class="nav__list-item">
+          <a
+            
+            href="/datos_tic/contact/"
+            
+            title=""
+            >Contacto</a
+          >
+        </li>
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Usando Whisper Para Transcribir a Messi</h1>
+      
+      
+<div id="code-folding-buttons" class="btn-group pull-right">
+  <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-_extension-text-contrast="">
+    <span>Show/Hide All Code</span> 
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" style="min-width: 50px;">
+  <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+  <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+  </ul>
+</div>
+
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                3/2/2023
+
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">2 minutos de lectura</span>
+          </li>
+        </ul>
+
+      
+<script src="https://martinolmos.github.io/datos_tic/post/2023-02-03-usando-whisper-para-transcribir-a-messi/index.es_files/header-attrs/header-attrs.js"></script>
+
+
+<p><a href="&#39;https://openai.com/blog/whisper/&#39;">Whisper</a> es un modelo de código abierto para reconocimiento del habla desarrollado por <a href="https://openai.com">OpenAI</a>.</p>
+<p>Intentaremos utilizarlo para agregar subtítulos a una entrevista reciente.</p>
+<p>Aquí la entrevista original:</p>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RYXcR3YejwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+</center>
+<div id="descargo-el-audio-y-el-video-de-youtube" class="section level2">
+<h2>Descargo el audio y el video de Youtube</h2>
+<pre class="python"><code>import youtube_dl as ydl
+
+video_url = &#39;https://www.youtube.com/watch?v=RYXcR3YejwY&#39;
+
+ydl_audio_opts = {
+    &#39;outtmpl&#39;: &#39;whisper_messi_corto.%(ext)s&#39;,
+    &#39;format&#39;: &#39;bestaudio/best&#39;,
+    &#39;postprocessors&#39;: [{
+        &#39;key&#39;: &#39;FFmpegExtractAudio&#39;,
+        &#39;preferredcodec&#39;: &#39;mp3&#39;,
+        &#39;preferredquality&#39;: &#39;192&#39;}]
+}
+ydl_video_opts = {
+    &#39;outtmpl&#39;: &#39;whisper_messi_corto.%(ext)s&#39;,
+}
+
+ydl.YoutubeDL(ydl_audio_opts).download([video_url])
+ydl.YoutubeDL(ydl_video_opts).download([video_url])</code></pre>
+</div>
+<div id="genero-la-transcripción" class="section level2">
+<h2>Genero la transcripción</h2>
+<pre class="python"><code>import whisperx
+
+device = &quot;cuda&quot; 
+audio_file = &quot;whisper_messi_corto.mp3&quot;
+
+# transcribe with original whisper
+model = whisperx.load_model(&quot;large-v2&quot;, device)
+result = model.transcribe(audio_file)
+
+print(result[&quot;segments&quot;]) # before alignment
+
+# load alignment model and metadata
+model_a, metadata = whisperx.load_align_model(language_code=result[&quot;language&quot;], device=device)
+
+# align whisper output
+result_aligned = whisperx.align(result[&quot;segments&quot;], model_a, metadata, audio_file, device)</code></pre>
+</div>
+<div id="incrusto-la-transcripción-en-el-video-como-subtítulos" class="section level2">
+<h2>Incrusto la transcripción en el video como subtítulos</h2>
+<pre class="python"><code>import pandas as pd
+import cv2
+from moviepy.editor import VideoFileClip
+import moviepy.editor as mp
+from moviepy.editor import *
+from moviepy.video.tools.subtitles import SubtitlesClip
+
+dict1 = {&#39;start&#39;:[], &#39;end&#39;:[], &#39;text&#39;:[]}
+for i in result_aligned[&#39;segments&#39;]:
+  dict1[&#39;start&#39;].append(int(i[&#39;start&#39;]))
+  dict1[&#39;end&#39;].append(int(i[&#39;end&#39;]))
+  dict1[&#39;text&#39;].append(i[&#39;text&#39;])
+
+df = pd.DataFrame.from_dict(dict1)
+df.to_csv(f&#39;whisper_messi_corto_subs.csv&#39;)
+
+videocap = cv2.VideoCapture(&quot;whisper_messi_corto.mp4&quot;)
+success, image = videocap.read()
+height = image.shape[0]
+width =image.shape[1]
+
+generator = lambda txt: TextClip(txt, font=&#39;P052-Bold&#39;, fontsize=width/50, stroke_width=.7, color=&#39;white&#39;, stroke_color = &#39;black&#39;, size = (width, height*.25), method=&#39;caption&#39;)
+
+subs = tuple(zip(tuple(zip(df[&#39;start&#39;].values, df[&#39;end&#39;].values)), df[&#39;text&#39;].values))
+subtitles = SubtitlesClip(subs, generator)
+
+video = VideoFileClip(&#39;whisper_messi_corto.mp4&#39;)
+final = CompositeVideoClip([video, subtitles.set_pos((&#39;center&#39;,&#39;bottom&#39;))])
+final.write_videofile(&#39;whisper_messi_corto_con_subs.mp4&#39;, fps=video.fps, remove_temp=True, codec=&quot;libx264&quot;, audio_codec=&quot;aac&quot;)</code></pre>
+<p>Aquí el producto final, el video con los subtítulos:</p>
+<center>
+<video width="640" height="480" controls>
+<source src="whisper_messi_corto_con_subs.mp4" type="video/mp4">
+</video>
+</center>
+</div>
+</div>
+    <div class="post__footer">
+      
+
+      
+      
+      
+  <script src="/datos_tic/js/collapse.js"></script>
+  <script src="/datos_tic/js/dropdown.js"></script>
+  <script src="/datos_tic/js/transition.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+
+       
+  <script>
+  $(document).ready(function () {
+    window.initializeCodeFolding("show" === "show");
+  });
+  </script>
+  <script src="/datos_tic/js/codefolding.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+    </div>
+
+    <div id="comment">
+          <h2>comentarios</h2>
+          <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "datos-tic" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+  </div>
+
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2020-2023
+
+      
+    </li>
+    
+  </ul>
+
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/datos_tic/js/medium-zoom.min.fae9ac8895995fe91958b3954be11e96025824a04770726a3531e119ddd2d576.js"
+    integrity="sha256-&#43;umsiJWZX&#43;kZWLOVS&#43;EelgJYJKBHcHJqNTHhGd3S1XY="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
